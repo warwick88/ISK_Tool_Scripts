@@ -1,0 +1,18 @@
+Notice of Adverse Benefit Determination information:
+
+
+DocumentCodes:
+	Stored Procedure: ksp_dfa_NoticeABD
+	View: ksp_dfa_NoticeABDDFA
+
+
+Screens:
+	Initilization: ksp_SCInitializeCustomDocumentabdnotice
+	Validation Complete: SSP_VALIDATEDOCUMENTSFROMDOCUMENTVALIDATIONS
+
+
+Report Server:
+	URL:http://kcmh-db1/Reports/Pages/Folder.aspx?ItemPath=%2fProdSCReports&ViewMode=Detail
+	Location: ProdSCDocuments
+	Name:DFANoticeABD
+	
