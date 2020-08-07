@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.489
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F14B399A-7131-4C87-9E4B-1186C45EF12D}") = "ClientPlansAdHocAnalysis", "ClientPlansAdHocAnalysis\ClientPlansAdHocAnalysis.rptproj", "{9415139B-5C66-442B-BEB7-C8D773B4BAE5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Default = Debug|Default
+		DebugLocal|Default = DebugLocal|Default
+		Release|Default = Release|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9415139B-5C66-442B-BEB7-C8D773B4BAE5}.Debug|Default.ActiveCfg = Debug
+		{9415139B-5C66-442B-BEB7-C8D773B4BAE5}.Debug|Default.Build.0 = Debug
+		{9415139B-5C66-442B-BEB7-C8D773B4BAE5}.Debug|Default.Deploy.0 = Debug
+		{9415139B-5C66-442B-BEB7-C8D773B4BAE5}.DebugLocal|Default.ActiveCfg = DebugLocal
+		{9415139B-5C66-442B-BEB7-C8D773B4BAE5}.DebugLocal|Default.Build.0 = DebugLocal
+		{9415139B-5C66-442B-BEB7-C8D773B4BAE5}.Release|Default.ActiveCfg = Release
+		{9415139B-5C66-442B-BEB7-C8D773B4BAE5}.Release|Default.Build.0 = Release
+		{9415139B-5C66-442B-BEB7-C8D773B4BAE5}.Release|Default.Deploy.0 = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DB3B5469-BCB1-4744-9855-B0FABB3CFDCC}
+	EndGlobalSection
+EndGlobal
