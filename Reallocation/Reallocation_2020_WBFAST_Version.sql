@@ -70,7 +70,7 @@ order by DateOfService desc
 
 
 
---Step 6: Run this block
+--Step 6: Run this block multiple times. Like 8 times.
 exec ssp_CMReallocateClaimLineCoveragePlans
   @StartDate='10/1/2019',
   @EndDate='09/30/2020',
