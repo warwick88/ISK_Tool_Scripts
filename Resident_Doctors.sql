@@ -2,11 +2,13 @@ use ProdSmartCare
 
 	
 select * from staff
-where LastName like '%Shah%'
-and firstname like 'p%'
+where LastName like '%Palffy%'
+and firstname like 'a%'
+
+select 
 
 --BRamesh is 35316   -DONE
-exec prodsmartcare..csp_LoadSignatureFacsimiles 35316, '\\KCMH-DB1\staffsig\Alicia1.jpg'
+exec prodsmartcare..csp_LoadSignatureFacsimiles 35306, '\\KCMH-DB1\staffsig\APalffy.jpg'
 
 
 --Priebe is 35291

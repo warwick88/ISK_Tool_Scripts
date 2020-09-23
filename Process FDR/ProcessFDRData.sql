@@ -60,14 +60,14 @@
   --   @CheckNumber = NNNNN   in integer format. 
   --
   -- 2) Cut and paste the results into an EXCEL spreadsheet, and forward these to Kathy Wait. 
-  --
+  --8/24/20.
 /**********************************************************************************************/
 declare @FDRMasterCheckRunId int
 declare @CheckDate datetime
 
 exec ksp_Process_FDR_GLSummary
-@CheckDate = '05-26-2020', -- Starting post-MCO, you must enter the date FDR checks were created
-@CheckNumber = 2023480, -- Starting 4.19.2018, check number must be entered also. 
+@CheckDate = '08-24-2020', -- Starting post-MCO, you must enter the date FDR checks were created
+@CheckNumber = 2023796, -- Starting 4.19.2018, check number must be entered also. 
 						-- This number is an integer in the database. 
 @FDRMasterCheckRunId  = @FDRMasterCheckRunId output
 
