@@ -1,51 +1,6 @@
 use ProdSmartCare
 
-select * from documents
-where documentid=2677802
 
-select * from documentversions
-where documentid=2677802
-
-
-select top 100* from CustomBHTEDSDischargeSUHistory
-where DocumentVersionId=2785092
-order by createddate desc
-
-
-
-
-
-select * from documents
-where serviceid=861438
-
-select * from documentversions
-where documentid=2675359
-
-update documentversions
-SET REFRESHVIEW='Y'
-where documentid=2675359
-
-
-update documentversions
-SET REFRESHVIEW='Y'
-where documentid=2648217
-
-
-select * from services
-where serviceid=849531
-
-select * from services
-where serviceid=849590
-
-select * from globalcodes
-
---service deletion
-
-select * from documents
-where documentid=849531
-
-select * from documentversions
-where documentid=849531
 
 /*
 	Script for fixing co signature issue.
