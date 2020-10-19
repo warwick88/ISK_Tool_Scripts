@@ -1,4 +1,4 @@
-use SmartCarePreProd
+use ProdSmartCare
 
 DECLARE @ServiceId INT;
 SET @ServiceId = 846739
