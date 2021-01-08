@@ -15,5 +15,7 @@ order by createddate desc
 SELECT * FROM Authorizations
 WHERE AuthorizationNumber='UM-20200917-313043'
 
+
+--So in client Authorizations ID is AuthorizationDocumentId - shown below --
 select * from authorizations
-WHERE AuthorizationDocumentId='127241'
+WHERE AuthorizationDocumentId='128765'
