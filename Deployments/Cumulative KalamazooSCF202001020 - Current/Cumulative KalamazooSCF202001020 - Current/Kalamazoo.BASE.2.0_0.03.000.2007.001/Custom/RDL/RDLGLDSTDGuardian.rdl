@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Report xmlns="http://schemas.microsoft.com/sqlserver/reporting/2008/01/reportdefinition" xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner">
+  <Body>
+    <ReportItems>
+      <Textbox Name="Textbox1">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>Guardian Name:</Value>
+                <Style>
+                  <FontFamily>Verdana</FontFamily>
+                  <FontSize>9pt</FontSize>
+                  <FontWeight>Bold</FontWeight>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <Style />
+          </Paragraph>
+        </Paragraphs>
+        <rd:DefaultName>Textbox1</rd:DefaultName>
+        <Top>0.26667in</Top>
+        <Left>0.00502cm</Left>
+        <Height>0.2325in</Height>
+        <Width>1.17361in</Width>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+      </Textbox>
+      <Textbox Name="Textbox26">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>=iif(RowNumber("ssp_RdlCarePlanGaurdian") = 0, "No Guardian reported","")</Value>
+                <Style>
+                  <FontFamily>Verdana</FontFamily>
+                  <FontSize>9pt</FontSize>
+                  <TextDecoration>None</TextDecoration>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <Style />
+          </Paragraph>
+        </Paragraphs>
+        <rd:DefaultName>Textbox25</rd:DefaultName>
+        <Top>0.68968cm</Top>
+        <Left>6.80834cm</Left>
+        <Height>0.22764in</Height>
+        <Width>5.21806in</Width>
+        <ZIndex>1</ZIndex>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+      </Textbox>
+      <Textbox Name="Textbox2">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>Guardian</Value>
+                <Style>
+                  <FontFamily>Verdana</FontFamily>
+                  <FontSize>9pt</FontSize>
+                  <FontWeight>Bold</FontWeight>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <Style>
+              <TextAlign>Left</TextAlign>
+            </Style>
+          </Paragraph>
+        </Paragraphs>
+        <rd:DefaultName>Textbox1</rd:DefaultName>
+        <Height>0.60854cm</Height>
+        <Width>20.0622cm</Width>
+        <ZIndex>2</ZIndex>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+          <BackgroundColor>#dce5ea</BackgroundColor>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+      </Textbox>
+      <Textbox Name="Textbox3">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>=iif(First(Fields!Guardian.Value="N", "ssp_RdlCarePlanGaurdian"), "No Guardian reported",First(Fields!ContactName.Value, "ssp_RdlCarePlanGaurdian"))</Value>
+                <Style>
+                  <FontFamily>Verdana</FontFamily>
+                  <FontSize>9pt</FontSize>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <Style />
+          </Paragraph>
+        </Paragraphs>
+        <rd:DefaultName>Textbox3</rd:DefaultName>
+        <Top>0.25625in</Top>
+        <Left>1.21448in</Left>
+        <Height>0.24292in</Height>
+        <Width>1.42708in</Width>
+        <ZIndex>3</ZIndex>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+      </Textbox>
+    </ReportItems>
+    <Height>0.51375in</Height>
+    <Style />
+  </Body>
+  <Width>7.92976in</Width>
+  <Page>
+    <InteractiveHeight>11in</InteractiveHeight>
+    <InteractiveWidth>6.2in</InteractiveWidth>
+    <LeftMargin>0.25in</LeftMargin>
+    <RightMargin>0.25in</RightMargin>
+    <TopMargin>0.25in</TopMargin>
+    <BottomMargin>0.25in</BottomMargin>
+    <Style />
+  </Page>
+  <AutoRefresh>0</AutoRefresh>
+  <DataSources>
+    <DataSource Name="Streamline">
+      <DataSourceReference>Streamline</DataSourceReference>
+      <rd:SecurityType>None</rd:SecurityType>
+      <rd:DataSourceID>91fba132-8f2e-4caa-88c0-e145510668ec</rd:DataSourceID>
+    </DataSource>
+  </DataSources>
+  <DataSets>
+    <DataSet Name="ssp_RdlCarePlanGaurdian">
+      <Query>
+        <DataSourceName>Streamline</DataSourceName>
+        <QueryParameters>
+          <QueryParameter Name="@DocumentVersionId">
+            <Value>=Parameters!DocumentVersionId.Value</Value>
+          </QueryParameter>
+        </QueryParameters>
+        <CommandType>StoredProcedure</CommandType>
+        <CommandText>ssp_RdlCarePlanGaurdian</CommandText>
+      </Query>
+      <Fields>
+        <Field Name="CurrentDocumentVersionId">
+          <DataField>CurrentDocumentVersionId</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="ClientId">
+          <DataField>ClientId</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="Guardian">
+          <DataField>Guardian</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="ContactName">
+          <DataField>ContactName</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+      </Fields>
+    </DataSet>
+  </DataSets>
+  <ReportParameters>
+    <ReportParameter Name="DocumentVersionId">
+      <DataType>Integer</DataType>
+      <Prompt>DocumentVersionId</Prompt>
+    </ReportParameter>
+  </ReportParameters>
+  <rd:ReportUnitType>Inch</rd:ReportUnitType>
+  <rd:ReportID>075b388c-bebd-4809-8685-76b1b9fb5066</rd:ReportID>
+</Report>

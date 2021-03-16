@@ -1,0 +1,2 @@
+Report: SupReportMHDevelopmentalAttachmentChild.rdl published successfully. 
+The command completed successfully

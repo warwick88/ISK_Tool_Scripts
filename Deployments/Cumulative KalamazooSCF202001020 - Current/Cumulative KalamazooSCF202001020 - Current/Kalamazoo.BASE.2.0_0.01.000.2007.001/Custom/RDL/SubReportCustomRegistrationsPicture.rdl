@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Report xmlns="http://schemas.microsoft.com/sqlserver/reporting/2008/01/reportdefinition" xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner">
+  <Body>
+    <ReportItems>
+      <Tablix Name="table8">
+        <TablixBody>
+          <TablixColumns>
+            <TablixColumn>
+              <Width>7.10833in</Width>
+            </TablixColumn>
+          </TablixColumns>
+          <TablixRows>
+            <TablixRow>
+              <Height>0.75in</Height>
+              <TablixCells>
+                <TablixCell>
+                  <CellContents>
+                    <Image Name="image3">
+                      <Source>Database</Source>
+                      <Value>=Fields!Picture.Value</Value>
+                      <MIMEType>image/jpeg</MIMEType>
+                      <Sizing>FitProportional</Sizing>
+                      <ZIndex>2</ZIndex>
+                      <Style>
+                        <Border>
+                          <Style>None</Style>
+                        </Border>
+                        <PaddingTop>5pt</PaddingTop>
+                        <PaddingBottom>5pt</PaddingBottom>
+                      </Style>
+                    </Image>
+                  </CellContents>
+                </TablixCell>
+              </TablixCells>
+            </TablixRow>
+          </TablixRows>
+        </TablixBody>
+        <TablixColumnHierarchy>
+          <TablixMembers>
+            <TablixMember />
+          </TablixMembers>
+        </TablixColumnHierarchy>
+        <TablixRowHierarchy>
+          <TablixMembers>
+            <TablixMember>
+              <Group Name="table8_Group1" />
+              <TablixMembers>
+                <TablixMember>
+                  <KeepTogether>true</KeepTogether>
+                </TablixMember>
+              </TablixMembers>
+            </TablixMember>
+          </TablixMembers>
+        </TablixRowHierarchy>
+        <DataSetName>ssp_RDLDocumentRegistrationPictures</DataSetName>
+        <Left>0.0125in</Left>
+        <Height>0.75in</Height>
+        <Width>7.10833in</Width>
+        <Style />
+      </Tablix>
+    </ReportItems>
+    <Height>0.75in</Height>
+    <Style />
+  </Body>
+  <Width>7.12083in</Width>
+  <Page>
+    <LeftMargin>0.25in</LeftMargin>
+    <RightMargin>0.25in</RightMargin>
+    <TopMargin>0.25in</TopMargin>
+    <BottomMargin>0.25in</BottomMargin>
+    <Style />
+  </Page>
+  <AutoRefresh>0</AutoRefresh>
+  <DataSources>
+    <DataSource Name="Streamline">
+      <DataSourceReference>Streamline</DataSourceReference>
+      <rd:SecurityType>DataBase</rd:SecurityType>
+      <rd:DataSourceID>139e4bef-21b2-45ea-a5cb-028c93b45bc0</rd:DataSourceID>
+    </DataSource>
+  </DataSources>
+  <DataSets>
+    <DataSet Name="ssp_RDLDocumentRegistrationPictures">
+      <Query>
+        <DataSourceName>Streamline</DataSourceName>
+        <QueryParameters>
+          <QueryParameter Name="@DocumentVersionId">
+            <Value>=Parameters!DocumentVersionId.Value</Value>
+          </QueryParameter>
+        </QueryParameters>
+        <CommandType>StoredProcedure</CommandType>
+        <CommandText>ssp_RDLDocumentRegistrationPictures</CommandText>
+      </Query>
+      <Fields>
+        <Field Name="Picture">
+          <DataField>Picture</DataField>
+          <rd:TypeName>System.Byte[]</rd:TypeName>
+        </Field>
+      </Fields>
+    </DataSet>
+  </DataSets>
+  <ReportParameters>
+    <ReportParameter Name="DocumentVersionId">
+      <DataType>Integer</DataType>
+      <Prompt>DocumentVersionId</Prompt>
+    </ReportParameter>
+  </ReportParameters>
+  <Language>en-US</Language>
+  <ConsumeContainerWhitespace>true</ConsumeContainerWhitespace>
+  <rd:ReportUnitType>Inch</rd:ReportUnitType>
+  <rd:ReportID>c58c8f08-94d7-44cc-9719-df12c46aa063</rd:ReportID>
+</Report>

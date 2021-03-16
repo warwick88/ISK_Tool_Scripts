@@ -1,0 +1,1826 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packages version_info_file="versioninfo.xml" application="SmartCareEHR" client="Kalamazoo">
+	<module Code="Custom" DefaultDisplayName="Custom" ComponentName="Custom">
+		<release name="KalamazooSCF202001020" StartVersion="1.0319" EndVersion="1.0320" foldername="\Database Objects" specialInstructionsFileName="">
+			<files>
+				<file number="1" RDL="No">
+					<name>UpdateScript_Documentcodes_KCMHSAS Build Cycle Tasks#44.sql</name>
+					<current_version>1.0319</current_version>
+					<upgrade_version>1.0320</upgrade_version>
+				</file>
+			</files>
+		</release>
+		<release name="KalamazooSCF202001160" StartVersion="1.0320" EndVersion="1.0321" foldername="\Database Objects" specialInstructionsFileName="">
+			<files>
+				<file number="1" RDL="No">
+					<name>csp_SCPostSignatureUpdateTreatmentPlan.sql</name>
+					<current_version>1.0320</current_version>
+					<upgrade_version>1.0321</upgrade_version>
+				</file>
+			</files>
+		</release>
+		<release name="KalamazooSCF202002270" StartVersion="1.0321" EndVersion="1.0323" foldername="\Database Objects" specialInstructionsFileName="">
+			<files>
+				<file number="1" RDL="No">
+					<name>scsp_SCClientMedicationClientInformation.sql</name>
+					<current_version>1.0321</current_version>
+					<upgrade_version>1.0322</upgrade_version>
+				</file>
+				<file number="2" RDL="Yes">
+					<name>RDLConcurrentReview.rdl</name>
+					<current_version>1.0322</current_version>
+					<upgrade_version>1.0323</upgrade_version>
+				</file>
+			</files>
+		</release>
+		<release name="KalamazooSCF202003260" StartVersion="1.0323" EndVersion="1.0332" foldername="\Database Objects" specialInstructionsFileName="">
+			<files>
+				<file number="1" RDL="No">
+					<name>Upgrade script  Module_AdverseChildhoodExperience_1.0.sql</name>
+					<current_version>1.0323</current_version>
+					<upgrade_version>1.0324</upgrade_version>
+				</file>
+				<file number="2" RDL="No">
+					<name>InsertScripts_Screens_DocumentCode_Banners_ChainofCustody.sql</name>
+					<current_version>1.0324</current_version>
+					<upgrade_version>1.0325</upgrade_version>
+				</file>
+				<file number="3" RDL="No">
+					<name>InsertScript_ValidationMessages_AdverseChildhoodExperience.sql</name>
+					<current_version>1.0325</current_version>
+					<upgrade_version>1.0326</upgrade_version>
+				</file>
+				<file number="4" RDL="No">
+					<name>csp_InitCustomAdverseChildhoodExperiences.sql</name>
+					<current_version>1.0326</current_version>
+					<upgrade_version>1.0327</upgrade_version>
+				</file>
+				<file number="5" RDL="No">
+					<name>csp_InitCustomAuthorizationDocumentStandardInitialization.sql</name>
+					<current_version>1.0327</current_version>
+					<upgrade_version>1.0328</upgrade_version>
+				</file>
+				<file number="6" RDL="No">
+					<name>csp_RDLCustomAdverseChildhoodExperiences.sql</name>
+					<current_version>1.0328</current_version>
+					<upgrade_version>1.0329</upgrade_version>
+				</file>
+				<file number="7" RDL="No">
+					<name>csp_SCGetCustomAdverseChildhoodExperiences.sql</name>
+					<current_version>1.0329</current_version>
+					<upgrade_version>1.0330</upgrade_version>
+				</file>
+				<file number="8" RDL="No">
+					<name>csp_validateCustomAdverseChildhoodExperiences.sql</name>
+					<current_version>1.0330</current_version>
+					<upgrade_version>1.0331</upgrade_version>
+				</file>
+				<file number="9" RDL="Yes">
+					<name>RDLCustomAdverseChildhoodExperiences.rdl</name>
+					<current_version>1.0331</current_version>
+					<upgrade_version>1.0332</upgrade_version>
+				</file>
+			</files>
+		</release>
+		<release name="KalamazooSCF202004090" StartVersion="1.0332" EndVersion="1.0337" foldername="\Database Objects" specialInstructionsFileName="">
+			<files>
+				<file number="1" RDL="No">
+					<name>csp_InitPsychiatricNote.sql</name>
+					<current_version>1.0332</current_version>
+					<upgrade_version>1.0333</upgrade_version>
+				</file>
+				<file number="2" RDL="No">
+					<name>csp_ValidateCustomPsychiatricNoteSubjective.sql</name>
+					<current_version>1.0333</current_version>
+					<upgrade_version>1.0334</upgrade_version>
+				</file>
+				<file number="3" RDL="Yes">
+					<name>SubReportPsychiatricNoteGeneral.rdl</name>
+					<current_version>1.0334</current_version>
+					<upgrade_version>1.0335</upgrade_version>
+				</file>
+				<file number="4" RDL="Yes">
+					<name>SubReportPsychiatricNoteSubjective.rdl</name>
+					<current_version>1.0335</current_version>
+					<upgrade_version>1.0336</upgrade_version>
+				</file>
+				<file number="5" RDL="Yes">
+					<name>SubReportSummarySubjective.rdl</name>
+					<current_version>1.0336</current_version>
+					<upgrade_version>1.0337</upgrade_version>
+				</file>
+			</files>
+		</release>
+		<release name="KalamazooSCF202004240" StartVersion="1.0337" EndVersion="1.0338" foldername="\Database Objects" specialInstructionsFileName="">
+			<files>
+				<file number="1" RDL="No">
+					<name>UpdateScript - Remove validation - KCMHSAS - Support #1178.sql</name>
+					<current_version>1.0337</current_version>
+					<upgrade_version>1.0338</upgrade_version>
+				</file>
+			</files>
+		</release>
+		<release name="KalamazooSCF202004300" StartVersion="1.0338" EndVersion="1.0339" foldername="\Database Objects" specialInstructionsFileName="">
+			<files>
+				<file number="1" RDL="No">
+					<name>UpdateScriptDocumentValidations_KCMHSAS - Support#664.sql</name>
+					<current_version>1.0338</current_version>
+					<upgrade_version>1.0339</upgrade_version>
+				</file>
+			</files>
+		</release>
+		<release name="KalamazooSCF202005290" StartVersion="1.0339" EndVersion="1.0347" foldername="\Database Objects" specialInstructionsFileName="">
+			<files>
+				<file number="1" RDL="No">
+					<name>Upgrade script module_Inquiry_1.1.sql</name>
+					<current_version>1.0339</current_version>
+					<upgrade_version>1.0340</upgrade_version>
+				</file>
+				<file number="2" RDL="No">
+					<name>csp_CreateMemberRecord.sql</name>
+					<current_version>1.0340</current_version>
+					<upgrade_version>1.0341</upgrade_version>
+				</file>
+				<file number="3" RDL="No">
+					<name>csp_InitInquiry.sql</name>
+					<current_version>1.0341</current_version>
+					<upgrade_version>1.0342</upgrade_version>
+				</file>
+				<file number="4" RDL="No">
+					<name>csp_PostUpdateInquiry.sql</name>
+					<current_version>1.0342</current_version>
+					<upgrade_version>1.0343</upgrade_version>
+				</file>
+				<file number="5" RDL="No">
+					<name>csp_SCGetCoverageInformation.sql</name>
+					<current_version>1.0343</current_version>
+					<upgrade_version>1.0344</upgrade_version>
+				</file>
+				<file number="6" RDL="No">
+					<name>csp_SCGetMemberInquiriesDetails.sql</name>
+					<current_version>1.0344</current_version>
+					<upgrade_version>1.0345</upgrade_version>
+				</file>
+				<file number="7" RDL="No">
+					<name>csp_scUpdateInquiryClientContacts.sql</name>
+					<current_version>1.0345</current_version>
+					<upgrade_version>1.0346</upgrade_version>
+				</file>
+				<file number="8" RDL="No">
+					<name>updatescript_screens_KCMHSASImprovement3.sql</name>
+					<current_version>1.0346</current_version>
+					<upgrade_version>1.0347</upgrade_version>
+				</file>
+			</files>
+		</release>
+		<release name="Kalamazoo.BASE.2.0_0.01.000.2007.001" StartVersion="1.0347" EndVersion="1.0398" foldername="\Database Objects" specialInstructionsFileName="">
+			<files>
+				<file number="1" RDL="No">
+					<name>Upgrade script  Module_Discharge_1.0.sql</name>
+					<current_version>1.0347</current_version>
+					<upgrade_version>1.0348</upgrade_version>
+				</file>
+				<file number="2" RDL="No">
+					<name>InsertScreens_DocumentCodesBannersScreens_Discharge.sql</name>
+					<current_version>1.0348</current_version>
+					<upgrade_version>1.0349</upgrade_version>
+				</file>
+				<file number="3" RDL="No">
+					<name>Insert_Script_A&amp;DProgram.sql</name>
+					<current_version>1.0349</current_version>
+					<upgrade_version>1.0350</upgrade_version>
+				</file>
+				<file number="4" RDL="No">
+					<name>InserScript_DocumentValidations_KCMHSASImprovement#4.sql</name>
+					<current_version>1.0350</current_version>
+					<upgrade_version>1.0351</upgrade_version>
+				</file>
+				<file number="5" RDL="No">
+					<name>Insert_Script_XRESIDENTIALPROGRAM.sql</name>
+					<current_version>1.0351</current_version>
+					<upgrade_version>1.0352</upgrade_version>
+				</file>
+				<file number="6" RDL="No">
+					<name>InsertScript_GlobalCodes_KCMHSAS-Improvement#11.sql</name>
+					<current_version>1.0352</current_version>
+					<upgrade_version>1.0353</upgrade_version>
+				</file>
+				<file number="7" RDL="No">
+					<name>InsertScript_DocumentValidations_KCMHSAS-Improvement#4.sql</name>
+					<current_version>1.0353</current_version>
+					<upgrade_version>1.0354</upgrade_version>
+				</file>
+				<file number="8" RDL="No">
+					<name>UpdateScript_DocumentCodesScreens_KCMHSASImprovement#4.sql</name>
+					<current_version>1.0354</current_version>
+					<upgrade_version>1.0355</upgrade_version>
+				</file>
+				<file number="9" RDL="No">
+					<name>UpdateScript_DegreeLMHT_GlobalCode_Code.sql</name>
+					<current_version>1.0355</current_version>
+					<upgrade_version>1.0356</upgrade_version>
+				</file>
+				<file number="10" RDL="No">
+					<name>Update_GlobalCodes.sql</name>
+					<current_version>1.0356</current_version>
+					<upgrade_version>1.0357</upgrade_version>
+				</file>
+				<file number="11" RDL="No">
+					<name>GlobalCode_Entry_Discharge.sql</name>
+					<current_version>1.0357</current_version>
+					<upgrade_version>1.0358</upgrade_version>
+				</file>
+				<file number="12" RDL="No">
+					<name>csf_GetMedicationInstruction.sql</name>
+					<current_version>1.0358</current_version>
+					<upgrade_version>1.0359</upgrade_version>
+				</file>
+				<file number="13" RDL="No">
+					<name>csp_ValidationClientProgramAssignmentDetails.sql</name>
+					<current_version>1.0359</current_version>
+					<upgrade_version>1.0360</upgrade_version>
+				</file>
+				<file number="14" RDL="No">
+					<name>csp_ValidateRaceEthnicity.sql</name>
+					<current_version>1.0360</current_version>
+					<upgrade_version>1.0361</upgrade_version>
+				</file>
+				<file number="15" RDL="No">
+					<name>csp_ValidateDocumentRegistrations.sql</name>
+					<current_version>1.0361</current_version>
+					<upgrade_version>1.0362</upgrade_version>
+				</file>
+				<file number="16" RDL="No">
+					<name>csp_validateCustomDocumentDischarges.sql</name>
+					<current_version>1.0362</current_version>
+					<upgrade_version>1.0363</upgrade_version>
+				</file>
+				<file number="17" RDL="No">
+					<name>csp_SCPostSignatureUpdateRegistrationDocument.sql</name>
+					<current_version>1.0363</current_version>
+					<upgrade_version>1.0364</upgrade_version>
+				</file>
+				<file number="18" RDL="No">
+					<name>csp_SCGetSummaryServicesProvided.sql</name>
+					<current_version>1.0364</current_version>
+					<upgrade_version>1.0365</upgrade_version>
+				</file>
+				<file number="19" RDL="No">
+					<name>csp_SCGetPreviousDiagnosis.sql</name>
+					<current_version>1.0365</current_version>
+					<upgrade_version>1.0366</upgrade_version>
+				</file>
+				<file number="20" RDL="No">
+					<name>csp_SCGetLMHCurrentMedicationHistory.sql</name>
+					<current_version>1.0366</current_version>
+					<upgrade_version>1.0367</upgrade_version>
+				</file>
+				<file number="21" RDL="No">
+					<name>csp_SCGetDischargeSummaryCurrentMedicationlist.sql</name>
+					<current_version>1.0367</current_version>
+					<upgrade_version>1.0368</upgrade_version>
+				</file>
+				<file number="22" RDL="No">
+					<name>csp_SCGetCustomDocumentDischarges.sql</name>
+					<current_version>1.0368</current_version>
+					<upgrade_version>1.0369</upgrade_version>
+				</file>
+				<file number="23" RDL="No">
+					<name>csp_RDLSubReportDischargedProgramsList.sql</name>
+					<current_version>1.0369</current_version>
+					<upgrade_version>1.0370</upgrade_version>
+				</file>
+				<file number="24" RDL="No">
+					<name>csp_RDLCustomDocumentDischarges.sql</name>
+					<current_version>1.0370</current_version>
+					<upgrade_version>1.0371</upgrade_version>
+				</file>
+				<file number="25" RDL="No">
+					<name>csp_RDLCustomDischargeReferrals.sql</name>
+					<current_version>1.0371</current_version>
+					<upgrade_version>1.0372</upgrade_version>
+				</file>
+				<file number="26" RDL="No">
+					<name>csp_RDLCustomDischargePreviousDiagnosis.sql</name>
+					<current_version>1.0372</current_version>
+					<upgrade_version>1.0373</upgrade_version>
+				</file>
+				<file number="27" RDL="No">
+					<name>csp_RDLCurrentMedicationlist.sql</name>
+					<current_version>1.0373</current_version>
+					<upgrade_version>1.0374</upgrade_version>
+				</file>
+				<file number="28" RDL="No">
+					<name>csp_PostSignatureUpdateDischarges.sql</name>
+					<current_version>1.0374</current_version>
+					<upgrade_version>1.0375</upgrade_version>
+				</file>
+				<file number="29" RDL="No">
+					<name>csp_PMServicesForDischargeDocument.sql</name>
+					<current_version>1.0375</current_version>
+					<upgrade_version>1.0376</upgrade_version>
+				</file>
+				<file number="30" RDL="No">
+					<name>csp_ObjectiveProgressGoals.sql</name>
+					<current_version>1.0376</current_version>
+					<upgrade_version>1.0377</upgrade_version>
+				</file>
+				<file number="31" RDL="No">
+					<name>csp_InitDocumentRegistrations.sql</name>
+					<current_version>1.0377</current_version>
+					<upgrade_version>1.0378</upgrade_version>
+				</file>
+				<file number="32" RDL="No">
+					<name>csp_InitCustomDocumentDischarges.sql</name>
+					<current_version>1.0378</current_version>
+					<upgrade_version>1.0379</upgrade_version>
+				</file>
+				<file number="33" RDL="No">
+					<name>csp_GetClientProgramsList.sql</name>
+					<current_version>1.0379</current_version>
+					<upgrade_version>1.0380</upgrade_version>
+				</file>
+				<file number="34" RDL="No">
+					<name>csp_GetClientDemographicsClientAddress.sql</name>
+					<current_version>1.0380</current_version>
+					<upgrade_version>1.0381</upgrade_version>
+				</file>
+				<file number="35" RDL="Yes">
+					<name>RDLCustomDocumentDischarges.rdl</name>
+					<current_version>1.0381</current_version>
+					<upgrade_version>1.0382</upgrade_version>
+				</file>
+				<file number="36" RDL="Yes">
+					<name>RDLReportCustomRegistraionMain.rdl</name>
+					<current_version>1.0382</current_version>
+					<upgrade_version>1.0383</upgrade_version>
+				</file>
+				<file number="37" RDL="Yes">
+					<name>RDLSubReportDischargedProgramsList.rdl</name>
+					<current_version>1.0383</current_version>
+					<upgrade_version>1.0384</upgrade_version>
+				</file>
+				<file number="38" RDL="Yes">
+					<name>SubReporCustomRegistrationEpisode.rdl</name>
+					<current_version>1.0384</current_version>
+					<upgrade_version>1.0385</upgrade_version>
+				</file>
+				<file number="39" RDL="Yes">
+					<name>SubReportCurrentMedications.rdl</name>
+					<current_version>1.0385</current_version>
+					<upgrade_version>1.0386</upgrade_version>
+				</file>
+				<file number="40" RDL="Yes">
+					<name>SubReportCustomCoverageInformation.rdl</name>
+					<current_version>1.0386</current_version>
+					<upgrade_version>1.0387</upgrade_version>
+				</file>
+				<file number="41" RDL="Yes">
+					<name>SubReportCustomDischargeReferrals.rdl</name>
+					<current_version>1.0387</current_version>
+					<upgrade_version>1.0388</upgrade_version>
+				</file>
+				<file number="42" RDL="Yes">
+					<name>SubReportCustomRegistrationClientContacts.rdl</name>
+					<current_version>1.0388</current_version>
+					<upgrade_version>1.0389</upgrade_version>
+				</file>
+				<file number="43" RDL="Yes">
+					<name>SubReportCustomRegistrationDemographics.rdl</name>
+					<current_version>1.0389</current_version>
+					<upgrade_version>1.0390</upgrade_version>
+				</file>
+				<file number="44" RDL="Yes">
+					<name>SubReportCustomRegistrationFormsAndAgreements.rdl</name>
+					<current_version>1.0390</current_version>
+					<upgrade_version>1.0391</upgrade_version>
+				</file>
+				<file number="45" RDL="Yes">
+					<name>SubReportCustomRegistrationInsurance.rdl</name>
+					<current_version>1.0391</current_version>
+					<upgrade_version>1.0392</upgrade_version>
+				</file>
+				<file number="46" RDL="Yes">
+					<name>SubReportCustomRegistrationProgramEnrollment.rdl</name>
+					<current_version>1.0392</current_version>
+					<upgrade_version>1.0393</upgrade_version>
+				</file>
+				<file number="47" RDL="Yes">
+					<name>SubReportCustomRegistrationsAdditionalInformation.rdl</name>
+					<current_version>1.0393</current_version>
+					<upgrade_version>1.0394</upgrade_version>
+				</file>
+				<file number="48" RDL="Yes">
+					<name>SubReportCustomRegistrationsPicture.rdl</name>
+					<current_version>1.0394</current_version>
+					<upgrade_version>1.0395</upgrade_version>
+				</file>
+				<file number="49" RDL="Yes">
+					<name>SubReportFASignatureImages.rdl</name>
+					<current_version>1.0395</current_version>
+					<upgrade_version>1.0396</upgrade_version>
+				</file>
+				<file number="50" RDL="Yes">
+					<name>SubReportPsychiatricServicePreviousDiagnosis.rdl</name>
+					<current_version>1.0396</current_version>
+					<upgrade_version>1.0397</upgrade_version>
+				</file>
+				<file number="51" RDL="Yes">
+					<name>SubReportSignatureImages.rdl</name>
+					<current_version>1.0397</current_version>
+					<upgrade_version>1.0398</upgrade_version>
+				</file>
+			</files>
+		</release>
+		<release name="Kalamazoo.BASE.2.0_0.02.000.2007.001" StartVersion="1.0398" EndVersion="1.0401" foldername="\Database Objects" specialInstructionsFileName="">
+			<files>
+				<file number="1" RDL="No">
+					<name>UpdateScript_GlobalCodes_KCMHSAS_Imp#3_1.0.sql</name>
+					<current_version>1.0398</current_version>
+					<upgrade_version>1.0399</upgrade_version>
+				</file>
+				<file number="2" RDL="No">
+					<name>csp_CalculateCurrentDocumentLevelsOfCare.sql</name>
+					<current_version>1.0399</current_version>
+					<upgrade_version>1.0400</upgrade_version>
+				</file>
+				<file number="3" RDL="No">
+					<name>csp_RDLSubReportHRMTPClientNeeds.sql</name>
+					<current_version>1.0400</current_version>
+					<upgrade_version>1.0401</upgrade_version>
+				</file>
+			</files>
+		</release>
+		<release name="Kalamazoo.BASE.2.0_0.03.000.2007.001" StartVersion="1.0401" EndVersion="1.0444" foldername="\Database Objects" specialInstructionsFileName="">
+			<files>
+				<file number="1" RDL="No">
+					<name>Upgrade script module_CarePlan_1.0.sql</name>
+					<current_version>1.0401</current_version>
+					<upgrade_version>1.0402</upgrade_version>
+				</file>
+				<file number="2" RDL="No">
+					<name>Upgrade script module_CarePlan_1.1.sql</name>
+					<current_version>1.0402</current_version>
+					<upgrade_version>1.0403</upgrade_version>
+				</file>
+				<file number="3" RDL="No">
+					<name>Insert_GlobalCodes_KCMHSAS_XREVIEWENTIRECAREPLAN.sql</name>
+					<current_version>1.0403</current_version>
+					<upgrade_version>1.0404</upgrade_version>
+				</file>
+				<file number="4" RDL="No">
+					<name>InsertScript_DocumentCode_Screens_Banners.sql</name>
+					<current_version>1.0404</current_version>
+					<upgrade_version>1.0405</upgrade_version>
+				</file>
+				<file number="5" RDL="No">
+					<name>InsertScript_SystemConfigKeys_EnableAutoAuthorizationCreationFromISPIntervention.sql</name>
+					<current_version>1.0405</current_version>
+					<upgrade_version>1.0406</upgrade_version>
+				</file>
+				<file number="6" RDL="No">
+					<name>InsertScript-ClientFlags.sql</name>
+					<current_version>1.0406</current_version>
+					<upgrade_version>1.0407</upgrade_version>
+				</file>
+				<file number="7" RDL="No">
+					<name>InsertScripts_Screens_CarePlanPopUps.sql</name>
+					<current_version>1.0407</current_version>
+					<upgrade_version>1.0408</upgrade_version>
+				</file>
+				<file number="8" RDL="No">
+					<name>InsertUpdateScript_SystemConfigKeys_AssessmentDocumentCodeId.sql</name>
+					<current_version>1.0408</current_version>
+					<upgrade_version>1.0409</upgrade_version>
+				</file>
+				<file number="9" RDL="No">
+					<name>UpdateScript_DocumentCodes_TableList.sql</name>
+					<current_version>1.0409</current_version>
+					<upgrade_version>1.0410</upgrade_version>
+				</file>
+				<file number="10" RDL="No">
+					<name>UpdateScript_PostUpdateStoredProcedure_Drop_Constraint.sql</name>
+					<current_version>1.0410</current_version>
+					<upgrade_version>1.0411</upgrade_version>
+				</file>
+				<file number="11" RDL="No">
+					<name>UpdateScript_SystemConfigurationKeys_SetReviewInCarePlan.sql</name>
+					<current_version>1.0411</current_version>
+					<upgrade_version>1.0412</upgrade_version>
+				</file>
+				<file number="12" RDL="No">
+					<name>csp_CreateClientFlagEntryTreatmentPlan.sql</name>
+					<current_version>1.0412</current_version>
+					<upgrade_version>1.0413</upgrade_version>
+				</file>
+				<file number="13" RDL="No">
+					<name>csp_CustomGetCarePlanInitial.sql</name>
+					<current_version>1.0413</current_version>
+					<upgrade_version>1.0414</upgrade_version>
+				</file>
+				<file number="14" RDL="No">
+					<name>csp_CustomInitCarePlanInitial.sql</name>
+					<current_version>1.0414</current_version>
+					<upgrade_version>1.0415</upgrade_version>
+				</file>
+				<file number="15" RDL="No">
+					<name>CSP_CustomINITCAREPLANNEEDS.sql</name>
+					<current_version>1.0415</current_version>
+					<upgrade_version>1.0416</upgrade_version>
+				</file>
+				<file number="16" RDL="No">
+					<name>csp_GetCoreDocumentGoalsAndObjective.sql</name>
+					<current_version>1.0416</current_version>
+					<upgrade_version>1.0417</upgrade_version>
+				</file>
+				<file number="17" RDL="No">
+					<name>CSP_INITCAREPLANINITIAL.sql</name>
+					<current_version>1.0417</current_version>
+					<upgrade_version>1.0418</upgrade_version>
+				</file>
+				<file number="18" RDL="No">
+					<name>csp_InitCarePlanNeeds.sql</name>
+					<current_version>1.0418</current_version>
+					<upgrade_version>1.0419</upgrade_version>
+				</file>
+				<file number="19" RDL="No">
+					<name>CSP_RDLCAREPLAN.sql</name>
+					<current_version>1.0419</current_version>
+					<upgrade_version>1.0420</upgrade_version>
+				</file>
+				<file number="20" RDL="No">
+					<name>csp_RdlCarePlanDataPrescribedServices.sql</name>
+					<current_version>1.0420</current_version>
+					<upgrade_version>1.0421</upgrade_version>
+				</file>
+				<file number="21" RDL="No">
+					<name>csp_RdlCarePlanDates.sql</name>
+					<current_version>1.0421</current_version>
+					<upgrade_version>1.0422</upgrade_version>
+				</file>
+				<file number="22" RDL="No">
+					<name>csp_RdlCarePlanSummaryInformation.sql</name>
+					<current_version>1.0422</current_version>
+					<upgrade_version>1.0423</upgrade_version>
+				</file>
+				<file number="23" RDL="No">
+					<name>csp_RDLGetCurrentDocumentLevelsOfCare.sql</name>
+					<current_version>1.0423</current_version>
+					<upgrade_version>1.0424</upgrade_version>
+				</file>
+				<file number="24" RDL="No">
+					<name>csp_SCPostSignatureUpdateCarePlan.sql</name>
+					<current_version>1.0424</current_version>
+					<upgrade_version>1.0425</upgrade_version>
+				</file>
+				<file number="25" RDL="No">
+					<name>csp_SCValidateCarePlans.sql</name>
+					<current_version>1.0425</current_version>
+					<upgrade_version>1.0426</upgrade_version>
+				</file>
+				<file number="26" RDL="No">
+					<name>scsp_RdlCarePlanDates.sql</name>
+					<current_version>1.0426</current_version>
+					<upgrade_version>1.0427</upgrade_version>
+				</file>
+				<file number="27" RDL="No">
+					<name>SCSP_SCWEBGETTREATMENTGOALSOBJECTIVES.sql</name>
+					<current_version>1.0427</current_version>
+					<upgrade_version>1.0428</upgrade_version>
+				</file>
+				<file number="28" RDL="Yes">
+					<name>RDLGLDSTDCarePlan.rdl</name>
+					<current_version>1.0428</current_version>
+					<upgrade_version>1.0429</upgrade_version>
+				</file>
+				<file number="29" RDL="Yes">
+					<name>RDLGLDSTDDates.rdl</name>
+					<current_version>1.0429</current_version>
+					<upgrade_version>1.0430</upgrade_version>
+				</file>
+				<file number="30" RDL="Yes">
+					<name>RDLGLDSTDGuardian.rdl</name>
+					<current_version>1.0430</current_version>
+					<upgrade_version>1.0431</upgrade_version>
+				</file>
+				<file number="31" RDL="Yes">
+					<name>RDLGLDSTDMember.rdl</name>
+					<current_version>1.0431</current_version>
+					<upgrade_version>1.0432</upgrade_version>
+				</file>
+				<file number="32" RDL="Yes">
+					<name>RDLGLDSTDNewDiagnosisAssessment.rdl</name>
+					<current_version>1.0432</current_version>
+					<upgrade_version>1.0433</upgrade_version>
+				</file>
+				<file number="33" RDL="Yes">
+					<name>RDLGLDSTDObjectives.rdl</name>
+					<current_version>1.0433</current_version>
+					<upgrade_version>1.0434</upgrade_version>
+				</file>
+				<file number="34" RDL="Yes">
+					<name>RDLGLDSTDSupportsInvolvement.rdl</name>
+					<current_version>1.0434</current_version>
+					<upgrade_version>1.0435</upgrade_version>
+				</file>
+				<file number="35" RDL="Yes">
+					<name>SubReportGLDSTDAssociatedNeeds.rdl</name>
+					<current_version>1.0435</current_version>
+					<upgrade_version>1.0436</upgrade_version>
+				</file>
+				<file number="36" RDL="Yes">
+					<name>SubReportGLDSTDDiagnosisICD10.rdl</name>
+					<current_version>1.0436</current_version>
+					<upgrade_version>1.0437</upgrade_version>
+				</file>
+				<file number="37" RDL="Yes">
+					<name>SubReportGLDSTDGeneral.rdl</name>
+					<current_version>1.0437</current_version>
+					<upgrade_version>1.0438</upgrade_version>
+				</file>
+				<file number="38" RDL="Yes">
+					<name>SubReportGLDSTDInterventions.rdl</name>
+					<current_version>1.0438</current_version>
+					<upgrade_version>1.0439</upgrade_version>
+				</file>
+				<file number="39" RDL="Yes">
+					<name>SubReportGLDSTDPsychosocialDiagnosis.rdl</name>
+					<current_version>1.0439</current_version>
+					<upgrade_version>1.0440</upgrade_version>
+				</file>
+				<file number="40" RDL="Yes">
+					<name>SubReportGLDSTDTreatmentTeam.rdl</name>
+					<current_version>1.0440</current_version>
+					<upgrade_version>1.0441</upgrade_version>
+				</file>
+				<file number="41" RDL="Yes">
+					<name>SubReportInquiryDetailTreatmentHistory.rdl</name>
+					<current_version>1.0441</current_version>
+					<upgrade_version>1.0442</upgrade_version>
+				</file>
+				<file number="42" RDL="Yes">
+					<name>SubReportTreatmentPlanNeedSection.rdl</name>
+					<current_version>1.0442</current_version>
+					<upgrade_version>1.0443</upgrade_version>
+				</file>
+				<file number="43" RDL="Yes">
+					<name>SubReportUCLevelOfCareGeneral.rdl</name>
+					<current_version>1.0443</current_version>
+					<upgrade_version>1.0444</upgrade_version>
+				</file>
+			</files>
+		</release>
+		<release name="Kalamazoo.BASE.2.0_0.05.000.2008.001" StartVersion="1.0444" EndVersion="1.0445" foldername="\Database Objects" specialInstructionsFileName="">
+			<files>
+				<file number="1" RDL="Yes">
+					<name>RDLConcurrentReview.rdl</name>
+					<current_version>1.0444</current_version>
+					<upgrade_version>1.0445</upgrade_version>
+				</file>
+			</files>
+		</release>
+		<release name="KZIS.BASE.2.0_0.06.000.2008.001" StartVersion="1.0445" EndVersion="1.0460" foldername="\Database Objects" specialInstructionsFileName="">
+			<files>
+				<file number="1" RDL="No">
+					<name>InsertScript_AdjudicationRule_KCMHSAS-Enhancements #83.sql</name>
+					<current_version>1.0445</current_version>
+					<upgrade_version>1.0446</upgrade_version>
+				</file>
+				<file number="2" RDL="No">
+					<name>InsertScript_RecodeCategory_XSECONDARYCLAIMADJPLANS_KCMHSASEnh#83.sql</name>
+					<current_version>1.0446</current_version>
+					<upgrade_version>1.0447</upgrade_version>
+				</file>
+				<file number="3" RDL="No">
+					<name>scsp_CMAdjudicateClaimLines.sql</name>
+					<current_version>1.0447</current_version>
+					<upgrade_version>1.0448</upgrade_version>
+				</file>
+				<file number="4" RDL="No">
+					<name>csp_GetCoreDocumentGoalsAndObjective.sql</name>
+					<current_version>1.0448</current_version>
+					<upgrade_version>1.0449</upgrade_version>
+				</file>
+				<file number="5" RDL="No">
+					<name>csp_ValidateRaceEthnicity.sql</name>
+					<current_version>1.0449</current_version>
+					<upgrade_version>1.0450</upgrade_version>
+				</file>
+				<file number="6" RDL="No">
+					<name>cst_CreateScannedDocumentCodes.sql</name>
+					<current_version>1.0450</current_version>
+					<upgrade_version>1.0451</upgrade_version>
+				</file>
+				<file number="7" RDL="No">
+					<name>kt_InsertUpdate_Adjudications.sql</name>
+					<current_version>1.0451</current_version>
+					<upgrade_version>1.0452</upgrade_version>
+				</file>
+				<file number="8" RDL="No">
+					<name>SCSP_SCWEBGETTREATMENTGOALSOBJECTIVES.sql</name>
+					<current_version>1.0452</current_version>
+					<upgrade_version>1.0453</upgrade_version>
+				</file>
+				<file number="9" RDL="No">
+					<name>tIUClientMedicationInstructionsPatientSafety.sql</name>
+					<current_version>1.0453</current_version>
+					<upgrade_version>1.0454</upgrade_version>
+				</file>
+				<file number="10" RDL="No">
+					<name>tIUClientMedicationsPatientSafety.sql</name>
+					<current_version>1.0454</current_version>
+					<upgrade_version>1.0455</upgrade_version>
+				</file>
+				<file number="11" RDL="No">
+					<name>TriggerInsert_Clients.sql</name>
+					<current_version>1.0455</current_version>
+					<upgrade_version>1.0456</upgrade_version>
+				</file>
+				<file number="12" RDL="No">
+					<name>TriggerInsertUpdate_ClientMedicationScriptDrugs.sql</name>
+					<current_version>1.0456</current_version>
+					<upgrade_version>1.0457</upgrade_version>
+				</file>
+				<file number="13" RDL="No">
+					<name>TriggerInsertUpdate_Programs.sql</name>
+					<current_version>1.0457</current_version>
+					<upgrade_version>1.0458</upgrade_version>
+				</file>
+				<file number="14" RDL="Yes">
+					<name>SubReportCustomRegistrationInsurance.rdl</name>
+					<current_version>1.0458</current_version>
+					<upgrade_version>1.0459</upgrade_version>
+				</file>
+				<file number="15" RDL="No">
+					<name>csp_CMUMAuthorizations.sql</name>
+					<current_version>1.0459</current_version>
+					<upgrade_version>1.0460</upgrade_version>
+				</file>
+			</files>
+		</release>
+		<release name="KZIS.BASE.2.0_0.08.000.2009.001" StartVersion="1.0460" EndVersion="1.0461" foldername="\Database Objects" specialInstructionsFileName="">
+			<files>
+				<file number="1" RDL="No">
+					<name>UpdateScript_DocumentValidations_#1511.sql</name>
+					<current_version>1.0460</current_version>
+					<upgrade_version>1.0461</upgrade_version>
+				</file>
+			</files>
+		</release>
+		<release name="KZIS.BASE.2.0_0.09.000.2009.001" StartVersion="1.0461" EndVersion="1.0462" foldername="\Database Objects" specialInstructionsFileName="">
+			<files>
+				<file number="1" RDL="No">
+					<name>csp_RDLSubReportServiceNoteHRMGoalsAddressed.sql</name>
+					<current_version>1.0461</current_version>
+					<upgrade_version>1.0462</upgrade_version>
+				</file>
+			</files>
+		</release>
+		<release name="KZIS.BASE.2.0_0.10.000.2009.001" StartVersion="1.0462" EndVersion="1.0579" foldername="\Database Objects" specialInstructionsFileName="">
+			<files>
+				<file number="1" RDL="No">
+					<name>Upgrade script  Module_MentalStatusExamDFA_1.0.sql</name>
+					<current_version>1.0462</current_version>
+					<upgrade_version>1.0463</upgrade_version>
+				</file>
+				<file number="2" RDL="No">
+					<name>Upgrade script module_MHAssessment_1.0.sql</name>
+					<current_version>1.0463</current_version>
+					<upgrade_version>1.0464</upgrade_version>
+				</file>
+				<file number="3" RDL="No">
+					<name>Upgrade script module_MHAssessment_1.1.sql</name>
+					<current_version>1.0464</current_version>
+					<upgrade_version>1.0465</upgrade_version>
+				</file>
+				<file number="4" RDL="No">
+					<name>InsertScript_Screens_1.0.sql</name>
+					<current_version>1.0465</current_version>
+					<upgrade_version>1.0466</upgrade_version>
+				</file>
+				<file number="5" RDL="No">
+					<name>InsertScript_Screens_1.1.sql</name>
+					<current_version>1.0466</current_version>
+					<upgrade_version>1.0467</upgrade_version>
+				</file>
+				<file number="6" RDL="No">
+					<name>InsertScript_GlobalCodes_Gold#22.sql</name>
+					<current_version>1.0467</current_version>
+					<upgrade_version>1.0468</upgrade_version>
+				</file>
+				<file number="7" RDL="No">
+					<name>InsertScript_GlobalCodes_Memory.sql</name>
+					<current_version>1.0468</current_version>
+					<upgrade_version>1.0469</upgrade_version>
+				</file>
+				<file number="8" RDL="No">
+					<name>Insert_GlobalCodes_XSubstantialFunction.sql</name>
+					<current_version>1.0469</current_version>
+					<upgrade_version>1.0470</upgrade_version>
+				</file>
+				<file number="9" RDL="No">
+					<name>Insert_Script_CarePlanDomains_KCMHSAS Improvements_#12.sql</name>
+					<current_version>1.0470</current_version>
+					<upgrade_version>1.0471</upgrade_version>
+				</file>
+				<file number="10" RDL="No">
+					<name>InsertScript_DocumentValidations_Uncope_1.2.sql</name>
+					<current_version>1.0471</current_version>
+					<upgrade_version>1.0472</upgrade_version>
+				</file>
+				<file number="11" RDL="No">
+					<name>InsertScript_DocumentValidations.sql</name>
+					<current_version>1.0472</current_version>
+					<upgrade_version>1.0473</upgrade_version>
+				</file>
+				<file number="12" RDL="No">
+					<name>InsertScript_FormCollection_1.0.sql</name>
+					<current_version>1.0473</current_version>
+					<upgrade_version>1.0474</upgrade_version>
+				</file>
+				<file number="13" RDL="No">
+					<name>InsertScript_SystemConfigKeys_AssessmentDocumentCodeId.sql</name>
+					<current_version>1.0474</current_version>
+					<upgrade_version>1.0475</upgrade_version>
+				</file>
+				<file number="14" RDL="No">
+					<name>InsertScript_Validations_KCMHSAS Improvements_#12.sql</name>
+					<current_version>1.0475</current_version>
+					<upgrade_version>1.0476</upgrade_version>
+				</file>
+				<file number="15" RDL="No">
+					<name>InsertScripts_DFA_PrePlan.sql</name>
+					<current_version>1.0476</current_version>
+					<upgrade_version>1.0477</upgrade_version>
+				</file>
+				<file number="16" RDL="No">
+					<name>UpdateScript_GlobalCodes.sql</name>
+					<current_version>1.0477</current_version>
+					<upgrade_version>1.0478</upgrade_version>
+				</file>
+				<file number="17" RDL="No">
+					<name>UpdateScript_GlobalCodes_1.1.sql</name>
+					<current_version>1.0478</current_version>
+					<upgrade_version>1.0479</upgrade_version>
+				</file>
+				<file number="18" RDL="No">
+					<name>UpdateScript_1.0.sql</name>
+					<current_version>1.0479</current_version>
+					<upgrade_version>1.0480</upgrade_version>
+				</file>
+				<file number="19" RDL="No">
+					<name>UpdateScript_Documentcodes_KCMHSAS Improvements#12.sql</name>
+					<current_version>1.0480</current_version>
+					<upgrade_version>1.0481</upgrade_version>
+				</file>
+				<file number="20" RDL="No">
+					<name>UpdateScript_DocumentValidaions_PHQ9_6.0.sql</name>
+					<current_version>1.0481</current_version>
+					<upgrade_version>1.0482</upgrade_version>
+				</file>
+				<file number="21" RDL="No">
+					<name>UpdateScript_DocumentValidations_1.0.sql</name>
+					<current_version>1.0482</current_version>
+					<upgrade_version>1.0483</upgrade_version>
+				</file>
+				<file number="22" RDL="No">
+					<name>UpdateScript_DocumentValidations_1.1.sql</name>
+					<current_version>1.0483</current_version>
+					<upgrade_version>1.0484</upgrade_version>
+				</file>
+				<file number="23" RDL="No">
+					<name>UpdateScript_DocumentValidations_2.0.sql</name>
+					<current_version>1.0484</current_version>
+					<upgrade_version>1.0485</upgrade_version>
+				</file>
+				<file number="24" RDL="No">
+					<name>UpdateScript_DocmentValidations_3.0.sql</name>
+					<current_version>1.0485</current_version>
+					<upgrade_version>1.0486</upgrade_version>
+				</file>
+				<file number="25" RDL="No">
+					<name>UpdateScript_DocumentValidations_4.0.sql</name>
+					<current_version>1.0486</current_version>
+					<upgrade_version>1.0487</upgrade_version>
+				</file>
+				<file number="26" RDL="No">
+					<name>UpdateScript_documentValidations_5.0.sql</name>
+					<current_version>1.0487</current_version>
+					<upgrade_version>1.0488</upgrade_version>
+				</file>
+				<file number="27" RDL="No">
+					<name>UpdateScript_DocumentValidations_8.0.sql</name>
+					<current_version>1.0488</current_version>
+					<upgrade_version>1.0489</upgrade_version>
+				</file>
+				<file number="28" RDL="No">
+					<name>UpdateScript_DocumentValidations_Psychosocial_7.0.sql</name>
+					<current_version>1.0489</current_version>
+					<upgrade_version>1.0490</upgrade_version>
+				</file>
+				<file number="29" RDL="No">
+					<name>UpdateScript_Documentvalidations_Taborder.sql</name>
+					<current_version>1.0490</current_version>
+					<upgrade_version>1.0491</upgrade_version>
+				</file>
+				<file number="30" RDL="No">
+					<name>Updatescript_formitems.sql</name>
+					<current_version>1.0491</current_version>
+					<upgrade_version>1.0492</upgrade_version>
+				</file>
+				<file number="31" RDL="No">
+					<name>UpdateScript_FormItems_1.2.sql</name>
+					<current_version>1.0492</current_version>
+					<upgrade_version>1.0493</upgrade_version>
+				</file>
+				<file number="32" RDL="No">
+					<name>Updatescript_FormItems_ExportDFA_1.1.sql</name>
+					<current_version>1.0493</current_version>
+					<upgrade_version>1.0494</upgrade_version>
+				</file>
+				<file number="33" RDL="No">
+					<name>UpdateScript_FormItems_ExportDFA_1.2.sql</name>
+					<current_version>1.0494</current_version>
+					<upgrade_version>1.0495</upgrade_version>
+				</file>
+				<file number="34" RDL="No">
+					<name>UpdateScript_SystemconfigurationKey_ASSESSMENTDOCUMENTCODEID.sql</name>
+					<current_version>1.0495</current_version>
+					<upgrade_version>1.0496</upgrade_version>
+				</file>
+				<file number="35" RDL="No">
+					<name>GlobalCodes_1.0.sql</name>
+					<current_version>1.0496</current_version>
+					<upgrade_version>1.0497</upgrade_version>
+				</file>
+				<file number="36" RDL="No">
+					<name>GlobalCodes_1.1.sql</name>
+					<current_version>1.0497</current_version>
+					<upgrade_version>1.0498</upgrade_version>
+				</file>
+				<file number="37" RDL="No">
+					<name>GlobalCodes_1.2.sql</name>
+					<current_version>1.0498</current_version>
+					<upgrade_version>1.0499</upgrade_version>
+				</file>
+				<file number="38" RDL="No">
+					<name>GlobalCodes_1.3.sql</name>
+					<current_version>1.0499</current_version>
+					<upgrade_version>1.0500</upgrade_version>
+				</file>
+				<file number="39" RDL="No">
+					<name>DocuementValidations_1.0.sql</name>
+					<current_version>1.0500</current_version>
+					<upgrade_version>1.0501</upgrade_version>
+				</file>
+				<file number="40" RDL="No">
+					<name>DocuementValidations_1.2.sql</name>
+					<current_version>1.0501</current_version>
+					<upgrade_version>1.0502</upgrade_version>
+				</file>
+				<file number="41" RDL="No">
+					<name>DocuementValidations_1.3.sql</name>
+					<current_version>1.0502</current_version>
+					<upgrade_version>1.0503</upgrade_version>
+				</file>
+				<file number="42" RDL="No">
+					<name>DocuementValidations_1.4.sql</name>
+					<current_version>1.0503</current_version>
+					<upgrade_version>1.0504</upgrade_version>
+				</file>
+				<file number="43" RDL="No">
+					<name>DocuementValidations_1.5.sql</name>
+					<current_version>1.0504</current_version>
+					<upgrade_version>1.0505</upgrade_version>
+				</file>
+				<file number="44" RDL="No">
+					<name>DocumentValidations_1.1.sql</name>
+					<current_version>1.0505</current_version>
+					<upgrade_version>1.0506</upgrade_version>
+				</file>
+				<file number="45" RDL="No">
+					<name>DocumentValidations_1.6.sql</name>
+					<current_version>1.0506</current_version>
+					<upgrade_version>1.0507</upgrade_version>
+				</file>
+				<file number="46" RDL="No">
+					<name>DocumentValidations_1.7.sql</name>
+					<current_version>1.0507</current_version>
+					<upgrade_version>1.0508</upgrade_version>
+				</file>
+				<file number="47" RDL="No">
+					<name>DocumentValidations_1.8.sql</name>
+					<current_version>1.0508</current_version>
+					<upgrade_version>1.0509</upgrade_version>
+				</file>
+				<file number="48" RDL="No">
+					<name>DocumentValidations_1.9.sql</name>
+					<current_version>1.0509</current_version>
+					<upgrade_version>1.0510</upgrade_version>
+				</file>
+				<file number="49" RDL="No">
+					<name>DocumentValidations_1.10.sql</name>
+					<current_version>1.0510</current_version>
+					<upgrade_version>1.0511</upgrade_version>
+				</file>
+				<file number="50" RDL="No">
+					<name>Documentvalidations_2.0.sql</name>
+					<current_version>1.0511</current_version>
+					<upgrade_version>1.0512</upgrade_version>
+				</file>
+				<file number="51" RDL="No">
+					<name>ExportDFA_52231.sql</name>
+					<current_version>1.0512</current_version>
+					<upgrade_version>1.0513</upgrade_version>
+				</file>
+				<file number="52" RDL="No">
+					<name>Insert_validation_BH_Teds_admission_EII#1165.sql</name>
+					<current_version>1.0513</current_version>
+					<upgrade_version>1.0514</upgrade_version>
+				</file>
+				<file number="53" RDL="No">
+					<name>CSP_GetMHASAMFinalDetermination.sql</name>
+					<current_version>1.0514</current_version>
+					<upgrade_version>1.0515</upgrade_version>
+				</file>
+				<file number="54" RDL="No">
+					<name>csp_GetRecentSignedMHAsssessment.sql</name>
+					<current_version>1.0515</current_version>
+					<upgrade_version>1.0516</upgrade_version>
+				</file>
+				<file number="55" RDL="No">
+					<name>csp_InitCarePlanNeedsMHAssessments.sql</name>
+					<current_version>1.0516</current_version>
+					<upgrade_version>1.0517</upgrade_version>
+				</file>
+				<file number="56" RDL="No">
+					<name>csp_InitCustomDiagnosisStandardInitializationNew.sql</name>
+					<current_version>1.0517</current_version>
+					<upgrade_version>1.0518</upgrade_version>
+				</file>
+				<file number="57" RDL="No">
+					<name>csp_InitCustomMHAssessmentDefaultIntialization.sql</name>
+					<current_version>1.0518</current_version>
+					<upgrade_version>1.0519</upgrade_version>
+				</file>
+				<file number="58" RDL="No">
+					<name>csp_InitCustomMHAssessmentsStandardInitialization.sql</name>
+					<current_version>1.0519</current_version>
+					<upgrade_version>1.0520</upgrade_version>
+				</file>
+				<file number="59" RDL="No">
+					<name>csp_PostUpdateMHAssessment.sql</name>
+					<current_version>1.0520</current_version>
+					<upgrade_version>1.0521</upgrade_version>
+				</file>
+				<file number="60" RDL="No">
+					<name>csp_RDLCustomAssessmentDiagnosisIDDCriteria.sql</name>
+					<current_version>1.0521</current_version>
+					<upgrade_version>1.0522</upgrade_version>
+				</file>
+				<file number="61" RDL="No">
+					<name>csp_RDLCustomAssessmentFunctionalCommunications.sql</name>
+					<current_version>1.0522</current_version>
+					<upgrade_version>1.0523</upgrade_version>
+				</file>
+				<file number="62" RDL="No">
+					<name>csp_RDLCustomDocumentAssessmentDiagnosisIDDEligibilities.sql</name>
+					<current_version>1.0523</current_version>
+					<upgrade_version>1.0524</upgrade_version>
+				</file>
+				<file number="63" RDL="No">
+					<name>csp_RDLCustomDocumentFunctionalAssessments.sql</name>
+					<current_version>1.0524</current_version>
+					<upgrade_version>1.0525</upgrade_version>
+				</file>
+				<file number="64" RDL="No">
+					<name>csp_RDLCustomDocumentMentalStatusExams.sql</name>
+					<current_version>1.0525</current_version>
+					<upgrade_version>1.0526</upgrade_version>
+				</file>
+				<file number="65" RDL="No">
+					<name>csp_RDLCustomDocumentMHCraft.sql</name>
+					<current_version>1.0526</current_version>
+					<upgrade_version>1.0527</upgrade_version>
+				</file>
+				<file number="66" RDL="No">
+					<name>csp_RDLCustomDocumentPrePlanningWorksheet.sql</name>
+					<current_version>1.0527</current_version>
+					<upgrade_version>1.0528</upgrade_version>
+				</file>
+				<file number="67" RDL="No">
+					<name>csp_RDLCustomMHAssessment.sql</name>
+					<current_version>1.0528</current_version>
+					<upgrade_version>1.0529</upgrade_version>
+				</file>
+				<file number="68" RDL="No">
+					<name>csp_RDLCustomMHAssessmentCAFAS.sql</name>
+					<current_version>1.0529</current_version>
+					<upgrade_version>1.0530</upgrade_version>
+				</file>
+				<file number="69" RDL="No">
+					<name>csp_RDLMHAssessmentColumbia.sql</name>
+					<current_version>1.0530</current_version>
+					<upgrade_version>1.0531</upgrade_version>
+				</file>
+				<file number="70" RDL="No">
+					<name>csp_RDLMHAssessmentPCAFAS.sql</name>
+					<current_version>1.0531</current_version>
+					<upgrade_version>1.0532</upgrade_version>
+				</file>
+				<file number="71" RDL="No">
+					<name>csp_RdlMHAssessmentSupports.sql</name>
+					<current_version>1.0532</current_version>
+					<upgrade_version>1.0533</upgrade_version>
+				</file>
+				<file number="72" RDL="No">
+					<name>csp_RDLMHCustomDisposition.sql</name>
+					<current_version>1.0533</current_version>
+					<upgrade_version>1.0534</upgrade_version>
+				</file>
+				<file number="73" RDL="No">
+					<name>csp_RDLMHCustomProviderServices.sql</name>
+					<current_version>1.0534</current_version>
+					<upgrade_version>1.0535</upgrade_version>
+				</file>
+				<file number="74" RDL="No">
+					<name>csp_RDLMHCustomServiceDispositions.sql</name>
+					<current_version>1.0535</current_version>
+					<upgrade_version>1.0536</upgrade_version>
+				</file>
+				<file number="75" RDL="No">
+					<name>csp_RdlMHCustomSubstanceUseHistory2.sql</name>
+					<current_version>1.0536</current_version>
+					<upgrade_version>1.0537</upgrade_version>
+				</file>
+				<file number="76" RDL="No">
+					<name>csp_RDLMHOtherRiskFactors.sql</name>
+					<current_version>1.0537</current_version>
+					<upgrade_version>1.0538</upgrade_version>
+				</file>
+				<file number="77" RDL="No">
+					<name>csp_RDLSubReportMHAssessmentPES.sql</name>
+					<current_version>1.0538</current_version>
+					<upgrade_version>1.0539</upgrade_version>
+				</file>
+				<file number="78" RDL="No">
+					<name>csp_RdlSubReportMHPSAdultHistory.sql</name>
+					<current_version>1.0539</current_version>
+					<upgrade_version>1.0540</upgrade_version>
+				</file>
+				<file number="79" RDL="No">
+					<name>csp_RdlSubReportMHPSMedications.sql</name>
+					<current_version>1.0540</current_version>
+					<upgrade_version>1.0541</upgrade_version>
+				</file>
+				<file number="80" RDL="No">
+					<name>csp_RDLSubReportMHSubstanceUse.sql</name>
+					<current_version>1.0541</current_version>
+					<upgrade_version>1.0542</upgrade_version>
+				</file>
+				<file number="81" RDL="No">
+					<name>csp_SCGetFormFormId.sql</name>
+					<current_version>1.0542</current_version>
+					<upgrade_version>1.0543</upgrade_version>
+				</file>
+				<file number="82" RDL="No">
+					<name>csp_SCGetMHAssessment.sql</name>
+					<current_version>1.0543</current_version>
+					<upgrade_version>1.0544</upgrade_version>
+				</file>
+				<file number="83" RDL="No">
+					<name>csp_SubreportMHAssessmentNeedList.sql</name>
+					<current_version>1.0544</current_version>
+					<upgrade_version>1.0545</upgrade_version>
+				</file>
+				<file number="84" RDL="No">
+					<name>csp_validateCustomMHAssessment.sql</name>
+					<current_version>1.0545</current_version>
+					<upgrade_version>1.0546</upgrade_version>
+				</file>
+				<file number="85" RDL="No">
+					<name>scsp_SCMHGetRecentSignedAssessment.sql</name>
+					<current_version>1.0546</current_version>
+					<upgrade_version>1.0547</upgrade_version>
+				</file>
+				<file number="86" RDL="Yes">
+					<name>RDLCustomDocumentMentalStatusExams.rdl</name>
+					<current_version>1.0547</current_version>
+					<upgrade_version>1.0548</upgrade_version>
+				</file>
+				<file number="87" RDL="Yes">
+					<name>RDLCustomMHAssessment.rdl</name>
+					<current_version>1.0548</current_version>
+					<upgrade_version>1.0549</upgrade_version>
+				</file>
+				<file number="88" RDL="Yes">
+					<name>RDLCustomMHAssessmentCAFAS.rdl</name>
+					<current_version>1.0549</current_version>
+					<upgrade_version>1.0550</upgrade_version>
+				</file>
+				<file number="89" RDL="Yes">
+					<name>RDLNewDiagnosisMHAssessment.rdl</name>
+					<current_version>1.0550</current_version>
+					<upgrade_version>1.0551</upgrade_version>
+				</file>
+				<file number="90" RDL="Yes">
+					<name>RDLSubReportMHMentalStatusExams.rdl</name>
+					<current_version>1.0551</current_version>
+					<upgrade_version>1.0552</upgrade_version>
+				</file>
+				<file number="91" RDL="Yes">
+					<name>SubRDLMHCSSRSAdultColumbia.rdl</name>
+					<current_version>1.0552</current_version>
+					<upgrade_version>1.0553</upgrade_version>
+				</file>
+				<file number="92" RDL="Yes">
+					<name>SubReporMHAssessmentPES.rdl</name>
+					<current_version>1.0553</current_version>
+					<upgrade_version>1.0554</upgrade_version>
+				</file>
+				<file number="93" RDL="Yes">
+					<name>SubReporMHCRAFT.rdl</name>
+					<current_version>1.0554</current_version>
+					<upgrade_version>1.0555</upgrade_version>
+				</file>
+				<file number="94" RDL="Yes">
+					<name>SubReporMHPSMedication.rdl</name>
+					<current_version>1.0555</current_version>
+					<upgrade_version>1.0556</upgrade_version>
+				</file>
+				<file number="95" RDL="Yes">
+					<name>SubReporMHPsychosocialChild.rdl</name>
+					<current_version>1.0556</current_version>
+					<upgrade_version>1.0557</upgrade_version>
+				</file>
+				<file number="96" RDL="Yes">
+					<name>SubReporMHUncope.rdl</name>
+					<current_version>1.0557</current_version>
+					<upgrade_version>1.0558</upgrade_version>
+				</file>
+				<file number="97" RDL="Yes">
+					<name>SubReportAssessmentPCAFAS.rdl</name>
+					<current_version>1.0558</current_version>
+					<upgrade_version>1.0559</upgrade_version>
+				</file>
+				<file number="98" RDL="Yes">
+					<name>SubReportCustomAssessmentDiagnosisIDDCriteria.rdl</name>
+					<current_version>1.0559</current_version>
+					<upgrade_version>1.0560</upgrade_version>
+				</file>
+				<file number="99" RDL="Yes">
+					<name>SubReportCustomAssessmentFunctionalCommunications.rdl</name>
+					<current_version>1.0560</current_version>
+					<upgrade_version>1.0561</upgrade_version>
+				</file>
+				<file number="100" RDL="Yes">
+					<name>SubReportCustomDocumentAssessmentDiagnosisIDDEligibilities.rdl</name>
+					<current_version>1.0561</current_version>
+					<upgrade_version>1.0562</upgrade_version>
+				</file>
+				<file number="101" RDL="Yes">
+					<name>SubReportCustomDocumentFunctionalAssessments.rdl</name>
+					<current_version>1.0562</current_version>
+					<upgrade_version>1.0563</upgrade_version>
+				</file>
+				<file number="102" RDL="Yes">
+					<name>SubReportCustomMHProviderAgency.rdl</name>
+					<current_version>1.0563</current_version>
+					<upgrade_version>1.0564</upgrade_version>
+				</file>
+				<file number="103" RDL="Yes">
+					<name>SubReportCustomMHServiceType.rdl</name>
+					<current_version>1.0564</current_version>
+					<upgrade_version>1.0565</upgrade_version>
+				</file>
+				<file number="104" RDL="Yes">
+					<name>SubReportMHAsessmentNeedList.rdl</name>
+					<current_version>1.0565</current_version>
+					<upgrade_version>1.0566</upgrade_version>
+				</file>
+				<file number="105" RDL="Yes">
+					<name>SubReportMHCustomDisposition.rdl</name>
+					<current_version>1.0566</current_version>
+					<upgrade_version>1.0567</upgrade_version>
+				</file>
+				<file number="106" RDL="Yes">
+					<name>SubReportMHOtherRiskFactors2.rdl</name>
+					<current_version>1.0567</current_version>
+					<upgrade_version>1.0568</upgrade_version>
+				</file>
+				<file number="107" RDL="Yes">
+					<name>SubReportMHPrePlan.rdl</name>
+					<current_version>1.0568</current_version>
+					<upgrade_version>1.0569</upgrade_version>
+				</file>
+				<file number="108" RDL="Yes">
+					<name>SubReportMHPsychosocialAdult.rdl</name>
+					<current_version>1.0569</current_version>
+					<upgrade_version>1.0570</upgrade_version>
+				</file>
+				<file number="109" RDL="Yes">
+					<name>SubReportMHPsychosocialAdultHistory.rdl</name>
+					<current_version>1.0570</current_version>
+					<upgrade_version>1.0571</upgrade_version>
+				</file>
+				<file number="110" RDL="Yes">
+					<name>SubReportMHPsychosocialChildFunction.rdl</name>
+					<current_version>1.0571</current_version>
+					<upgrade_version>1.0572</upgrade_version>
+				</file>
+				<file number="111" RDL="Yes">
+					<name>SubReportMHRiskAssessment.rdl</name>
+					<current_version>1.0572</current_version>
+					<upgrade_version>1.0573</upgrade_version>
+				</file>
+				<file number="112" RDL="Yes">
+					<name>SubReportMHSubstanceUse.rdl</name>
+					<current_version>1.0573</current_version>
+					<upgrade_version>1.0574</upgrade_version>
+				</file>
+				<file number="113" RDL="Yes">
+					<name>SubReportMHSubStanceUseHistory.rdl</name>
+					<current_version>1.0574</current_version>
+					<upgrade_version>1.0575</upgrade_version>
+				</file>
+				<file number="114" RDL="Yes">
+					<name>SubReportMHSummaryLevelOfCare.rdl</name>
+					<current_version>1.0575</current_version>
+					<upgrade_version>1.0576</upgrade_version>
+				</file>
+				<file number="115" RDL="Yes">
+					<name>SubReportMHSupports.rdl</name>
+					<current_version>1.0576</current_version>
+					<upgrade_version>1.0577</upgrade_version>
+				</file>
+				<file number="116" RDL="Yes">
+					<name>SubReportMHUCSubstanceUse.rdl</name>
+					<current_version>1.0577</current_version>
+					<upgrade_version>1.0578</upgrade_version>
+				</file>
+				<file number="117" RDL="Yes">
+					<name>SupReportMHDevelopmentalAttachmentChild.rdl</name>
+					<current_version>1.0578</current_version>
+					<upgrade_version>1.0579</upgrade_version>
+				</file>
+			</files>
+		</release>
+		<release name="KZIS.BASE.2.0_0.11.000.2010.001" StartVersion="1.0579" EndVersion="1.0585" foldername="\Database Objects" specialInstructionsFileName="">
+			<files>
+				<file number="1" RDL="No">
+					<name>UpdateScript_DocumentValidations_KCMHSASImp4.sql</name>
+					<current_version>1.0579</current_version>
+					<upgrade_version>1.0580</upgrade_version>
+				</file>
+				<file number="2" RDL="No">
+					<name>csp_InitCustomDocumentDischarges.sql</name>
+					<current_version>1.0580</current_version>
+					<upgrade_version>1.0581</upgrade_version>
+				</file>
+				<file number="3" RDL="No">
+					<name>csp_RDLCustomDocumentDischarges.sql</name>
+					<current_version>1.0581</current_version>
+					<upgrade_version>1.0582</upgrade_version>
+				</file>
+				<file number="4" RDL="No">
+					<name>csp_SCGetCustomDocumentDischarges.sql</name>
+					<current_version>1.0582</current_version>
+					<upgrade_version>1.0583</upgrade_version>
+				</file>
+				<file number="5" RDL="Yes">
+					<name>RDLReportCustomRegistraionMain.rdl</name>
+					<current_version>1.0583</current_version>
+					<upgrade_version>1.0584</upgrade_version>
+				</file>
+				<file number="6" RDL="Yes">
+					<name>SubReportCustomRegistrationDemographics.rdl</name>
+					<current_version>1.0584</current_version>
+					<upgrade_version>1.0585</upgrade_version>
+				</file>
+			</files>
+		</release>
+		<release name="KZIS.BASE.2.0_0.12.000.2010.001" StartVersion="1.0585" EndVersion="1.0599" foldername="\Database Objects" specialInstructionsFileName="">
+			<files>
+				<file number="1" RDL="No">
+					<name>Upgrade script module_CarePlan_1.1.sql</name>
+					<current_version>1.0585</current_version>
+					<upgrade_version>1.0586</upgrade_version>
+				</file>
+				<file number="2" RDL="No">
+					<name>Upgrade script module_DataExchange_1.0.sql</name>
+					<current_version>1.0586</current_version>
+					<upgrade_version>1.0587</upgrade_version>
+				</file>
+				<file number="3" RDL="No">
+					<name>insert into DEImportExportDocumentFormats.sql</name>
+					<current_version>1.0587</current_version>
+					<upgrade_version>1.0588</upgrade_version>
+				</file>
+				<file number="4" RDL="No">
+					<name>UpdateScript_DocumentCodes_ValidateEpisodeCarePlan.sql</name>
+					<current_version>1.0588</current_version>
+					<upgrade_version>1.0589</upgrade_version>
+				</file>
+				<file number="5" RDL="No">
+					<name>csp_CustomGetCarePlanInitial.sql</name>
+					<current_version>1.0589</current_version>
+					<upgrade_version>1.0590</upgrade_version>
+				</file>
+				<file number="6" RDL="No">
+					<name>csp_CustomInitCarePlanInitial.sql</name>
+					<current_version>1.0590</current_version>
+					<upgrade_version>1.0591</upgrade_version>
+				</file>
+				<file number="7" RDL="No">
+					<name>csp_DEProcessDocumentDetail.sql</name>
+					<current_version>1.0591</current_version>
+					<upgrade_version>1.0592</upgrade_version>
+				</file>
+				<file number="8" RDL="No">
+					<name>csp_GetCustomCarePlanPrescribedServicesAuthorizationCodes.sql</name>
+					<current_version>1.0592</current_version>
+					<upgrade_version>1.0593</upgrade_version>
+				</file>
+				<file number="9" RDL="No">
+					<name>csp_InitCarePlanNeeds.sql</name>
+					<current_version>1.0593</current_version>
+					<upgrade_version>1.0594</upgrade_version>
+				</file>
+				<file number="10" RDL="No">
+					<name>csp_ProcessIncomingClientHealthAttributesXML.sql</name>
+					<current_version>1.0594</current_version>
+					<upgrade_version>1.0595</upgrade_version>
+				</file>
+				<file number="11" RDL="No">
+					<name>csp_RdlCarePlanDataPrescribedServices.sql</name>
+					<current_version>1.0595</current_version>
+					<upgrade_version>1.0596</upgrade_version>
+				</file>
+				<file number="12" RDL="No">
+					<name>csp_SCPostSignatureUpdateCarePlan.sql</name>
+					<current_version>1.0596</current_version>
+					<upgrade_version>1.0597</upgrade_version>
+				</file>
+				<file number="13" RDL="No">
+					<name>csp_SCValidateCarePlans.sql</name>
+					<current_version>1.0597</current_version>
+					<upgrade_version>1.0598</upgrade_version>
+				</file>
+				<file number="14" RDL="Yes">
+					<name>SubReportGLDSTDInterventions.rdl</name>
+					<current_version>1.0598</current_version>
+					<upgrade_version>1.0599</upgrade_version>
+				</file>
+			</files>
+		</release>
+		<release name="KZIS.BASE.2.0_0.13.000.2010.001" StartVersion="1.0599" EndVersion="1.0600" foldername="\Database Objects" specialInstructionsFileName="">
+			<files>
+				<file number="1" RDL="No">
+					<name>UpdateScript_Staff_KCMHSAS#91.sql</name>
+					<current_version>1.0599</current_version>
+					<upgrade_version>1.0600</upgrade_version>
+				</file>
+			</files>
+		</release>
+		<release name="KZIS.BASE.2.0_0.14.000.2010.001" StartVersion="1.0600" EndVersion="1.0615" foldername="\Database Objects" specialInstructionsFileName="">
+			<files>
+				<file number="1" RDL="No">
+					<name>Upgrade script module_BHSGroupNote_1.0.sql</name>
+					<current_version>1.0600</current_version>
+					<upgrade_version>1.0601</upgrade_version>
+				</file>
+				<file number="2" RDL="No">
+					<name>InsertScripts_Screens_Documentcodes_BHSGroupNote_Task#14.sql</name>
+					<current_version>1.0601</current_version>
+					<upgrade_version>1.0602</upgrade_version>
+				</file>
+				<file number="3" RDL="No">
+					<name>InsertScript_ValidationMessages_BHSGroupNote.sql</name>
+					<current_version>1.0602</current_version>
+					<upgrade_version>1.0603</upgrade_version>
+				</file>
+				<file number="4" RDL="No">
+					<name>csp_InitCarePlanNeeds.sql</name>
+					<current_version>1.0603</current_version>
+					<upgrade_version>1.0604</upgrade_version>
+				</file>
+				<file number="5" RDL="No">
+					<name>csp_RDLCustomBHSGroupNoteClientDetails.sql</name>
+					<current_version>1.0604</current_version>
+					<upgrade_version>1.0605</upgrade_version>
+				</file>
+				<file number="6" RDL="No">
+					<name>csp_RDLCustomServiceNoteInfo.sql</name>
+					<current_version>1.0605</current_version>
+					<upgrade_version>1.0606</upgrade_version>
+				</file>
+				<file number="7" RDL="No">
+					<name>csp_RDLSubReportSignatureImages.sql</name>
+					<current_version>1.0606</current_version>
+					<upgrade_version>1.0607</upgrade_version>
+				</file>
+				<file number="8" RDL="No">
+					<name>csp_SCGetCustomBHSClientGroupNote.sql</name>
+					<current_version>1.0607</current_version>
+					<upgrade_version>1.0608</upgrade_version>
+				</file>
+				<file number="9" RDL="No">
+					<name>csp_SCGetCustomBHSGroupNote.sql</name>
+					<current_version>1.0608</current_version>
+					<upgrade_version>1.0609</upgrade_version>
+				</file>
+				<file number="10" RDL="No">
+					<name>csp_SCSignGroupServicesDocuments.sql</name>
+					<current_version>1.0609</current_version>
+					<upgrade_version>1.0610</upgrade_version>
+				</file>
+				<file number="11" RDL="No">
+					<name>csp_SCUpdateCustomDocumentBHSCustomClientGroupNotes.sql</name>
+					<current_version>1.0610</current_version>
+					<upgrade_version>1.0611</upgrade_version>
+				</file>
+				<file number="12" RDL="No">
+					<name>csp_ValidateCustomBHSGroupServiceNote.sql</name>
+					<current_version>1.0611</current_version>
+					<upgrade_version>1.0612</upgrade_version>
+				</file>
+				<file number="13" RDL="No">
+					<name>SCSP_SCWEBGETRECENTTREATMENTPLANORADDENDUM.sql</name>
+					<current_version>1.0612</current_version>
+					<upgrade_version>1.0613</upgrade_version>
+				</file>
+				<file number="14" RDL="Yes">
+					<name>RDLCustomBHSClientGroupNote.rdl</name>
+					<current_version>1.0613</current_version>
+					<upgrade_version>1.0614</upgrade_version>
+				</file>
+				<file number="15" RDL="Yes">
+					<name>SubReportCustomNoteHeader.rdl</name>
+					<current_version>1.0614</current_version>
+					<upgrade_version>1.0615</upgrade_version>
+				</file>
+			</files>
+		</release>
+		<release name="KZIS.BASE.2.0_0.15.000.2010.001" StartVersion="1.0615" EndVersion="1.0618" foldername="\Database Objects" specialInstructionsFileName="">
+			<files>
+				<file number="1" RDL="No">
+					<name>DataCorrectionScript_KCMHSAS_#1539.sql</name>
+					<current_version>1.0615</current_version>
+					<upgrade_version>1.0616</upgrade_version>
+				</file>
+				<file number="2" RDL="No">
+					<name>scsp_SCServiceNotePostUpdate.sql</name>
+					<current_version>1.0616</current_version>
+					<upgrade_version>1.0617</upgrade_version>
+				</file>
+				<file number="3" RDL="No">
+					<name>csp_GetCustomCarePlanPrescribedServicesAuthorizationCodes.sql</name>
+					<current_version>1.0617</current_version>
+					<upgrade_version>1.0618</upgrade_version>
+				</file>
+			</files>
+		</release>
+		<release name="KZIS.BASE.2.0_0.16.000.2011.001" StartVersion="1.0618" EndVersion="1.0623" foldername="\Database Objects" specialInstructionsFileName="">
+			<files>
+				<file number="1" RDL="No">
+					<name>InsertScript_Domains_Needs_Goals_Objectives_KCMHSAS-Improvements#24.sql</name>
+					<current_version>1.0618</current_version>
+					<upgrade_version>1.0619</upgrade_version>
+				</file>
+				<file number="2" RDL="No">
+					<name>UpdateScript_DocumentValidations_KCMHSAS#98.sql</name>
+					<current_version>1.0619</current_version>
+					<upgrade_version>1.0620</upgrade_version>
+				</file>
+				<file number="3" RDL="No">
+					<name>csp_InitCarePlanNeeds.sql</name>
+					<current_version>1.0620</current_version>
+					<upgrade_version>1.0621</upgrade_version>
+				</file>
+				<file number="4" RDL="No">
+					<name>csp_CustomGetCarePlanInitial.sql</name>
+					<current_version>1.0621</current_version>
+					<upgrade_version>1.0622</upgrade_version>
+				</file>
+				<file number="5" RDL="No">
+					<name>csp_ValidateRaceEthnicity.sql</name>
+					<current_version>1.0622</current_version>
+					<upgrade_version>1.0623</upgrade_version>
+				</file>
+			</files>
+		</release>
+		<release name="KZIS.BASE.2.0_0.17.000.2011.001" StartVersion="1.0623" EndVersion="1.0625" foldername="\Database Objects" specialInstructionsFileName="">
+			<files>
+				<file number="1" RDL="No">
+					<name>UpdateScript_ClientPhones_KCMHSAS Support #1546.sql</name>
+					<current_version>1.0623</current_version>
+					<upgrade_version>1.0624</upgrade_version>
+				</file>
+				<file number="2" RDL="No">
+					<name>csp_RDLSubReportServiceNoteHRMGoalsAddressed.sql</name>
+					<current_version>1.0624</current_version>
+					<upgrade_version>1.0625</upgrade_version>
+				</file>
+			</files>
+		</release>
+		<release name="KZIS.BASE.2.0_0.18.000.2011.001" StartVersion="1.0625" EndVersion="1.0631" foldername="\Database Objects" specialInstructionsFileName="">
+			<files>
+				<file number="1" RDL="No">
+					<name>InsertScript_Recodes_XISKZOOEmerSvcsPrograms.sql</name>
+					<current_version>1.0625</current_version>
+					<upgrade_version>1.0626</upgrade_version>
+				</file>
+				<file number="2" RDL="No">
+					<name>csp_InitCustomDocumentDischarges.sql</name>
+					<current_version>1.0626</current_version>
+					<upgrade_version>1.0627</upgrade_version>
+				</file>
+				<file number="3" RDL="No">
+					<name>csp_RDLCustomDocumentDischarges.sql</name>
+					<current_version>1.0627</current_version>
+					<upgrade_version>1.0628</upgrade_version>
+				</file>
+				<file number="4" RDL="No">
+					<name>csp_SCGetCustomDocumentDischarges.sql</name>
+					<current_version>1.0628</current_version>
+					<upgrade_version>1.0629</upgrade_version>
+				</file>
+				<file number="5" RDL="No">
+					<name>csp_SCPostSignatureUpdateCarePlan.sql</name>
+					<current_version>1.0629</current_version>
+					<upgrade_version>1.0630</upgrade_version>
+				</file>
+				<file number="6" RDL="No">
+					<name>csp_validateCustomDocumentDischarges.sql</name>
+					<current_version>1.0630</current_version>
+					<upgrade_version>1.0631</upgrade_version>
+				</file>
+			</files>
+		</release>
+		<release name="KZIS.BASE.2.0_0.19.000.2012.001" StartVersion="1.0631" EndVersion="1.0634" foldername="\Database Objects" specialInstructionsFileName="">
+			<files>
+				<file number="1" RDL="No">
+					<name>csp_SCPostSignatureUpdateAuthorizationDocument.sql</name>
+					<current_version>1.0631</current_version>
+					<upgrade_version>1.0632</upgrade_version>
+				</file>
+				<file number="2" RDL="No">
+					<name>UpdateScript_DocumentValidations_KCMHSAS_BCT#116.sql</name>
+					<current_version>1.0632</current_version>
+					<upgrade_version>1.0633</upgrade_version>
+				</file>
+				<file number="3" RDL="No">
+					<name>UpdateScript_DocumentValidations_KCMHSAS_BCT#119_1.0.sql</name>
+					<current_version>1.0633</current_version>
+					<upgrade_version>1.0634</upgrade_version>
+				</file>
+			</files>
+		</release>
+		<release name="KZIS.BASE.2.0_0.20.000.2012.001" StartVersion="1.0634" EndVersion="1.0637" foldername="\Database Objects" specialInstructionsFileName="">
+			<files>
+				<file number="1" RDL="No">
+					<name>UpdateScript_DocumentValidations_KCMHSAS - Support #1587.sql</name>
+					<current_version>1.0634</current_version>
+					<upgrade_version>1.0635</upgrade_version>
+				</file>
+				<file number="2" RDL="No">
+					<name>csp_validateCustomDocumentDischarges.sql</name>
+					<current_version>1.0635</current_version>
+					<upgrade_version>1.0636</upgrade_version>
+				</file>
+				<file number="3" RDL="No">
+					<name>csp_validateCustomHRMTreatmentPlan.sql</name>
+					<current_version>1.0636</current_version>
+					<upgrade_version>1.0637</upgrade_version>
+				</file>
+			</files>
+		</release>
+		<release name="KZIS.BASE.2.0_0.21.000.2012.001" StartVersion="1.0637" EndVersion="1.0638" foldername="\Database Objects" specialInstructionsFileName="">
+			<files>
+				<file number="1" RDL="No">
+					<name>csp_RdlCarePlanDataPrescribedServices.sql</name>
+					<current_version>1.0637</current_version>
+					<upgrade_version>1.0638</upgrade_version>
+				</file>
+			</files>
+		</release>
+		<release name="KZIS.BASE.2.0_0.22.000.2101.001" StartVersion="1.0638" EndVersion="1.0642" foldername="\Database Objects" specialInstructionsFileName="">
+			<files>
+				<file number="1" RDL="No">
+					<name>cfn_SCUpdateElectronicEligibilityData_ResponseCoveragePlans_Michigan.sql</name>
+					<current_version>1.0638</current_version>
+					<upgrade_version>1.0639</upgrade_version>
+				</file>
+				<file number="2" RDL="No">
+					<name>csp_CreateKalamazooLabOrderFlowsheet.sql</name>
+					<current_version>1.0639</current_version>
+					<upgrade_version>1.0640</upgrade_version>
+				</file>
+				<file number="3" RDL="No">
+					<name>Csp_CreateLabObservationsAndFlowSheet.sql</name>
+					<current_version>1.0640</current_version>
+					<upgrade_version>1.0641</upgrade_version>
+				</file>
+				<file number="4" RDL="No">
+					<name>Csp_MapLabObservationsWithFlowSheet.sql</name>
+					<current_version>1.0641</current_version>
+					<upgrade_version>1.0642</upgrade_version>
+				</file>
+			</files>
+		</release>
+		<release name="KZIS.BASE.2.0_0.23.000.2101.001" StartVersion="1.0642" EndVersion="1.0643" foldername="\Database Objects" specialInstructionsFileName="">
+			<files>
+				<file number="1" RDL="No">
+					<name>csp_RdlSubReportServiceNoteFooter.sql</name>
+					<current_version>1.0642</current_version>
+					<upgrade_version>1.0643</upgrade_version>
+				</file>
+			</files>
+		</release>
+		<release name="KZIS.BASE.2.0_0.24.000.2101.001" StartVersion="1.0643" EndVersion="1.0644" foldername="\Database Objects" specialInstructionsFileName="">
+			<files>
+				<file number="1" RDL="No">
+					<name>InsertScript_DocumentNavigations_KCMHSAS-Support#1634.sql</name>
+					<current_version>1.0643</current_version>
+					<upgrade_version>1.0644</upgrade_version>
+				</file>
+			</files>
+		</release>
+		  <release name="KZIS.BASE.2.0_0.25.000.2102.001" StartVersion="1.0644" EndVersion="1.0648" foldername="\Database Objects" specialInstructionsFileName="">
+    <files>
+      <file number="1" RDL="No">
+        <name>Csp_MapKalamazooLabObservationsWithFlowSheet.sql</name>
+        <current_version>1.0644</current_version>
+        <upgrade_version>1.0645</upgrade_version>
+      </file>
+      <file number="2" RDL="No">
+        <name>csp_SCMapLabOrderObservationWithFlowsheet.sql</name>
+        <current_version>1.0645</current_version>
+        <upgrade_version>1.0646</upgrade_version>
+      </file>
+      <file number="3" RDL="No">
+        <name>csp_SCPostSignatureUpdateCarePlan.sql</name>
+        <current_version>1.0646</current_version>
+        <upgrade_version>1.0647</upgrade_version>
+      </file>
+      <file number="4" RDL="No">
+        <name>csp_SCValidateCarePlans.sql</name>
+        <current_version>1.0647</current_version>
+        <upgrade_version>1.0648</upgrade_version>
+      </file>
+    </files>
+  </release>
+  <release name="KZIS.BASE.2.0_0.26.000.2102.001" StartVersion="1.0648" EndVersion="1.0652" foldername="\Database Objects" specialInstructionsFileName="">
+    <files>
+      <file number="1" RDL="No">
+        <name>csp_InitializeSCWebHRMAddendumStandardInitialization.sql</name>
+        <current_version>1.0648</current_version>
+        <upgrade_version>1.0649</upgrade_version>
+      </file>
+      <file number="2" RDL="No">
+        <name>csp_InitializeSCWebHRMTreatmentPlanStandardInitialization.sql</name>
+        <current_version>1.0649</current_version>
+        <upgrade_version>1.0650</upgrade_version>
+      </file>
+      <file number="3" RDL="No">
+        <name>csp_RDLSubReportHRMTPInterventions.sql</name>
+        <current_version>1.0650</current_version>
+        <upgrade_version>1.0651</upgrade_version>
+      </file>
+      <file number="4" RDL="No">
+        <name>csp_SCWebGetTreatmentPlanHRM.sql</name>
+        <current_version>1.0651</current_version>
+        <upgrade_version>1.0652</upgrade_version>
+      </file>
+    </files>
+  </release>
+	<release name="KZIS.BASE.2.0_0.27.000.2102.001" StartVersion="1.0652" EndVersion="1.0653" foldername="\Database Objects" specialInstructionsFileName="">
+		<files>
+		  <file number="1" RDL="No">
+			<name>UpdateScript_FormItems_KCMHSAS-Support#1659.sql</name>
+			<current_version>1.0652</current_version>
+			<upgrade_version>1.0653</upgrade_version>
+		  </file>
+		</files>
+  </release>
+  <release name="KZIS.BASE.2.0_0.28.000.2102.001" StartVersion="1.0653" EndVersion="1.0656" foldername="\Database Objects" specialInstructionsFileName="">
+		<files>
+		  <file number="1" RDL="No">
+			<name>csp_RDLSubReportTpSignatures.sql</name>
+			<current_version>1.0653</current_version>
+			<upgrade_version>1.0654</upgrade_version>
+		  </file>
+		  <file number="2" RDL="No">
+			<name>csp_SCValidateCarePlans.sql</name>
+			<current_version>1.0654</current_version>
+			<upgrade_version>1.0655</upgrade_version>
+		  </file>
+		  <file number="3" RDL="Yes">
+			<name>SubReportTPSignaturePage.rdl</name>
+			<current_version>1.0655</current_version>
+			<upgrade_version>1.0656</upgrade_version>
+		  </file>
+		</files>
+  </release>
+	</module>
+</packages>

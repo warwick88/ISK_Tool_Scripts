@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Report xmlns="http://schemas.microsoft.com/sqlserver/reporting/2008/01/reportdefinition" xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner">
+  <Body>
+    <ReportItems>
+      <Tablix Name="Tablix2">
+        <TablixBody>
+          <TablixColumns>
+            <TablixColumn>
+              <Width>7.89583in</Width>
+            </TablixColumn>
+          </TablixColumns>
+          <TablixRows>
+            <TablixRow>
+              <Height>0.22416in</Height>
+              <TablixCells>
+                <TablixCell>
+                  <CellContents>
+                    <Rectangle Name="Rectangle1">
+                      <ReportItems>
+                        <Textbox Name="SupportsInvolvement">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>Supports Involvement:</Value>
+                                  <Style>
+                                    <FontFamily>Verdana</FontFamily>
+                                    <FontSize>9pt</FontSize>
+                                    <FontWeight>Bold</FontWeight>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>SupportsInvolvement</rd:DefaultName>
+                          <Height>0.21021in</Height>
+                          <Width>7.89583in</Width>
+                          <Style>
+                            <Border>
+                              <Style>None</Style>
+                            </Border>
+                            <BackgroundColor>#dce5ea</BackgroundColor>
+                            <VerticalAlign>Top</VerticalAlign>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </ReportItems>
+                      <KeepTogether>true</KeepTogether>
+                      <Style>
+                        <Border>
+                          <Style>None</Style>
+                        </Border>
+                      </Style>
+                    </Rectangle>
+                  </CellContents>
+                </TablixCell>
+              </TablixCells>
+            </TablixRow>
+            <TablixRow>
+              <Height>0.25in</Height>
+              <TablixCells>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="SupportsInvolvement1">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>=Fields!SupportsInvolvement.Value</Value>
+                              <Style>
+                                <FontFamily>Verdana</FontFamily>
+                                <FontSize>9pt</FontSize>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style />
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>SupportsInvolvement1</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Style>None</Style>
+                        </Border>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+              </TablixCells>
+            </TablixRow>
+            <TablixRow>
+              <Height>0.25in</Height>
+              <TablixCells>
+                <TablixCell>
+                  <CellContents>
+                    <Subreport Name="SubReportGLDSTDTreatmentTeam">
+                      <ReportName>SubReportGLDSTDTreatmentTeam</ReportName>
+                      <Parameters>
+                        <Parameter Name="DocumentVersionId">
+                          <Value>=Fields!DocumentVersionId.Value</Value>
+                        </Parameter>
+                      </Parameters>
+                      <Style>
+                        <Border>
+                          <Style>None</Style>
+                        </Border>
+                      </Style>
+                    </Subreport>
+                    <rd:Selected>true</rd:Selected>
+                  </CellContents>
+                </TablixCell>
+              </TablixCells>
+            </TablixRow>
+          </TablixRows>
+        </TablixBody>
+        <TablixColumnHierarchy>
+          <TablixMembers>
+            <TablixMember />
+          </TablixMembers>
+        </TablixColumnHierarchy>
+        <TablixRowHierarchy>
+          <TablixMembers>
+            <TablixMember />
+            <TablixMember />
+            <TablixMember />
+          </TablixMembers>
+        </TablixRowHierarchy>
+        <DataSetName>ssp_RDLCarePlanTreatmentTeam</DataSetName>
+        <Height>0.72416in</Height>
+        <Width>7.89583in</Width>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+        </Style>
+      </Tablix>
+    </ReportItems>
+    <Height>0.73458in</Height>
+    <Style />
+  </Body>
+  <Width>7.89583in</Width>
+  <Page>
+    <InteractiveHeight>11in</InteractiveHeight>
+    <InteractiveWidth>7.25in</InteractiveWidth>
+    <LeftMargin>0.25in</LeftMargin>
+    <RightMargin>0.25in</RightMargin>
+    <TopMargin>0.25in</TopMargin>
+    <BottomMargin>0.25in</BottomMargin>
+    <Style />
+  </Page>
+  <AutoRefresh>0</AutoRefresh>
+  <DataSources>
+    <DataSource Name="Streamline">
+      <DataSourceReference>Streamline</DataSourceReference>
+      <rd:SecurityType>DataBase</rd:SecurityType>
+      <rd:DataSourceID>8008ead4-c72e-4afb-bb18-d621be5db02d</rd:DataSourceID>
+    </DataSource>
+  </DataSources>
+  <DataSets>
+    <DataSet Name="ssp_RDLCarePlanTreatmentTeam">
+      <Query>
+        <DataSourceName>Streamline</DataSourceName>
+        <QueryParameters>
+          <QueryParameter Name="@DocumentVersionId">
+            <Value>=Parameters!DocumentVersionId.Value</Value>
+          </QueryParameter>
+        </QueryParameters>
+        <CommandType>StoredProcedure</CommandType>
+        <CommandText>ssp_RDLCarePlanTreatmentTeam</CommandText>
+      </Query>
+      <Fields>
+        <Field Name="DocumentVersionId">
+          <DataField>DocumentVersionId</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="CarePlanProgramId">
+          <DataField>CarePlanProgramId</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="ProgramId">
+          <DataField>ProgramId</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="ProgramName">
+          <DataField>ProgramName</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="StaffId">
+          <DataField>StaffId</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="StaffName">
+          <DataField>StaffName</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="AssignForContribution">
+          <DataField>AssignForContribution</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Completed">
+          <DataField>Completed</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="DocumentAssignedTaskId">
+          <DataField>DocumentAssignedTaskId</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="SupportsInvolvement">
+          <DataField>SupportsInvolvement</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+      </Fields>
+    </DataSet>
+  </DataSets>
+  <ReportParameters>
+    <ReportParameter Name="DocumentVersionId">
+      <DataType>Integer</DataType>
+      <Prompt>DocumentVersionId</Prompt>
+    </ReportParameter>
+  </ReportParameters>
+  <EmbeddedImages>
+    <EmbeddedImage Name="checkbox_checked">
+      <MIMEType>image/gif</MIMEType>
+      <ImageData>R0lGODlhDAAMAKIAAEBAQNTQyICAgAAAAP///wAAAAAAAAAAACH5BAAAAAAALAAAAAAMAAwAAAMnKLq88DAGAYi9d1ZsB9EcMXig140fJXqjWbZmurUY2HF2mAZ87wcJADs=</ImageData>
+    </EmbeddedImage>
+    <EmbeddedImage Name="checkbox_unchecked">
+      <MIMEType>image/gif</MIMEType>
+      <ImageData>R0lGODlhDAAMAJEAAEBAQNTQyICAgP///yH5BAAAAAAALAAAAAAMAAwAAAIdlI8Hyx0ChpzzRUotznDX7g1aOHrldmJPwLZuUAAAOw==</ImageData>
+    </EmbeddedImage>
+    <EmbeddedImage Name="radio_checked">
+      <MIMEType>image/gif</MIMEType>
+      <ImageData>R0lGODlhCwALAKIAAEBAQNTQyICAgAAAAP///wAAAAAAAAAAACH5BAAAAAAALAAAAAALAAsAAAMnSErSsqqBCVqcEDMAVdjLMCyBwBGi6JlKOhLlib4w2H1MgHs7ry8JADs=</ImageData>
+    </EmbeddedImage>
+    <EmbeddedImage Name="radio_unchecked">
+      <MIMEType>image/gif</MIMEType>
+      <ImageData>R0lGODlhCwALAJEAAEBAQNTQyICAgP///yH5BAAAAAAALAAAAAALAAsAAAIgnCcpZwkPUnuMIsBMuPkEgXXDF3akOHLZhgSs9sLuUQAAOw==</ImageData>
+    </EmbeddedImage>
+  </EmbeddedImages>
+  <rd:ReportUnitType>Inch</rd:ReportUnitType>
+  <rd:ReportID>c5c2213b-c8dd-4390-86ee-215c3689feb6</rd:ReportID>
+</Report>

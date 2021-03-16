@@ -1,0 +1,1474 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Report xmlns="http://schemas.microsoft.com/sqlserver/reporting/2008/01/reportdefinition" xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner">
+  <Body>
+    <ReportItems>
+      <Tablix Name="Tablix1">
+        <TablixBody>
+          <TablixColumns>
+            <TablixColumn>
+              <Width>7.66319in</Width>
+            </TablixColumn>
+          </TablixColumns>
+          <TablixRows>
+            <TablixRow>
+              <Height>0.33333in</Height>
+              <TablixCells>
+                <TablixCell>
+                  <CellContents>
+                    <Rectangle Name="Rectangle2">
+                      <ReportItems>
+                        <Textbox Name="Textbox4">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value EvaluationMode="Constant">Not Applicable</Value>
+                                  <Style>
+                                    <FontFamily>Verdana</FontFamily>
+                                    <FontSize>9pt</FontSize>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>Textbox4</rd:DefaultName>
+                          <Top>0.0375in</Top>
+                          <Left>0.41056in</Left>
+                          <Height>0.25in</Height>
+                          <Width>1.58333in</Width>
+                          <Style>
+                            <Border>
+                              <Style>None</Style>
+                            </Border>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                        <Image Name="image208">
+                          <Source>Embedded</Source>
+                          <Value>=IIF(Fields!NotApplicable.Value = "Y", "checkbox_checked", "checkbox_unchecked")</Value>
+                          <Top>0.09167in</Top>
+                          <Left>0.14584in</Left>
+                          <Height>0.125in</Height>
+                          <Width>0.125in</Width>
+                          <ZIndex>1</ZIndex>
+                          <Style>
+                            <Border />
+                          </Style>
+                        </Image>
+                      </ReportItems>
+                      <KeepTogether>true</KeepTogether>
+                      <Style>
+                        <Border>
+                          <Style>None</Style>
+                        </Border>
+                      </Style>
+                    </Rectangle>
+                  </CellContents>
+                </TablixCell>
+              </TablixCells>
+            </TablixRow>
+            <TablixRow>
+              <Height>0.20222in</Height>
+              <TablixCells>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="textbox231">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>Substance Use</Value>
+                              <Style>
+                                <FontFamily>Verdana</FontFamily>
+                                <FontSize>9pt</FontSize>
+                                <FontWeight>Bold</FontWeight>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style />
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>textbox231</rd:DefaultName>
+                      <ZIndex>199</ZIndex>
+                      <Style>
+                        <BackgroundColor>#dce5ea</BackgroundColor>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+              </TablixCells>
+            </TablixRow>
+            <TablixRow>
+              <Height>0.25833in</Height>
+              <TablixCells>
+                <TablixCell>
+                  <CellContents>
+                    <Rectangle Name="rectangle45">
+                      <ReportItems>
+                        <Textbox Name="PsCurrentHealthIssuesComment12">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>1. How many drinks do you have per week?</Value>
+                                  <Style>
+                                    <FontFamily>Verdana</FontFamily>
+                                    <FontSize>9pt</FontSize>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>PsCurrentHealthIssuesComment</rd:DefaultName>
+                          <Top>0.02117cm</Top>
+                          <Left>0.03528cm</Left>
+                          <Height>0.635cm</Height>
+                          <Width>7.36951cm</Width>
+                          <Style>
+                            <Border>
+                              <Style>None</Style>
+                            </Border>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                        <Textbox Name="PsCurrentHealthIssuesComment13">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>=Fields!DrinksPerWeek.Value</Value>
+                                  <Style>
+                                    <FontFamily>Verdana</FontFamily>
+                                    <FontSize>9pt</FontSize>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>PsCurrentHealthIssuesComment</rd:DefaultName>
+                          <Left>2.98472in</Left>
+                          <Height>0.635cm</Height>
+                          <Width>3.1887cm</Width>
+                          <ZIndex>1</ZIndex>
+                          <Style>
+                            <Border>
+                              <Style>None</Style>
+                            </Border>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </ReportItems>
+                      <DataElementOutput>ContentsOnly</DataElementOutput>
+                      <Visibility>
+                        <Hidden>=IIf(ISNOTHING(Fields!DrinksPerWeek.Value),true,false)</Hidden>
+                      </Visibility>
+                      <Style>
+                        <Border>
+                          <Style>None</Style>
+                        </Border>
+                      </Style>
+                    </Rectangle>
+                  </CellContents>
+                </TablixCell>
+              </TablixCells>
+            </TablixRow>
+            <TablixRow>
+              <Height>0.37917in</Height>
+              <TablixCells>
+                <TablixCell>
+                  <CellContents>
+                    <Rectangle Name="rectangle36">
+                      <ReportItems>
+                        <Rectangle Name="Rectangle5">
+                          <ReportItems>
+                            <Textbox Name="Textbox33">
+                              <CanGrow>true</CanGrow>
+                              <KeepTogether>true</KeepTogether>
+                              <Paragraphs>
+                                <Paragraph>
+                                  <TextRuns>
+                                    <TextRun>
+                                      <Value>2. When was the last time you had 4 or more (for men &gt; 65 and all women) or 5 or more (for men &lt; 65) drinks in one day?</Value>
+                                      <Style>
+                                        <FontStyle>Normal</FontStyle>
+                                        <FontFamily>verdana</FontFamily>
+                                        <FontSize>9pt</FontSize>
+                                        <FontWeight>Normal</FontWeight>
+                                        <TextDecoration>None</TextDecoration>
+                                        <Color>#000000</Color>
+                                      </Style>
+                                    </TextRun>
+                                  </TextRuns>
+                                  <Style />
+                                </Paragraph>
+                              </Paragraphs>
+                              <rd:DefaultName>Textbox32</rd:DefaultName>
+                              <Top>0.03611in</Top>
+                              <Height>0.25in</Height>
+                              <Width>4.75607in</Width>
+                              <Style>
+                                <Border>
+                                  <Style>None</Style>
+                                </Border>
+                                <PaddingLeft>2pt</PaddingLeft>
+                                <PaddingRight>2pt</PaddingRight>
+                                <PaddingTop>2pt</PaddingTop>
+                                <PaddingBottom>2pt</PaddingBottom>
+                              </Style>
+                            </Textbox>
+                            <Image Name="image216">
+                              <Source>Embedded</Source>
+                              <Value>=IIF(Fields!LastTimeDrinks.Value = "N", "radio_checked", "radio_unchecked")</Value>
+                              <Top>0.09722in</Top>
+                              <Left>5.88277in</Left>
+                              <Height>0.125in</Height>
+                              <Width>0.125in</Width>
+                              <ZIndex>1</ZIndex>
+                              <Style>
+                                <Border />
+                              </Style>
+                            </Image>
+                            <Textbox Name="textbox583">
+                              <CanGrow>true</CanGrow>
+                              <KeepTogether>true</KeepTogether>
+                              <Paragraphs>
+                                <Paragraph>
+                                  <TextRuns>
+                                    <TextRun>
+                                      <Value>Never</Value>
+                                      <Style>
+                                        <FontFamily>Verdana</FontFamily>
+                                        <FontSize>9pt</FontSize>
+                                      </Style>
+                                    </TextRun>
+                                  </TextRuns>
+                                  <Style />
+                                </Paragraph>
+                              </Paragraphs>
+                              <Top>0.05694in</Top>
+                              <Left>6.07722in</Left>
+                              <Height>0.635cm</Height>
+                              <Width>0.55178in</Width>
+                              <ZIndex>2</ZIndex>
+                              <Style>
+                                <PaddingLeft>2pt</PaddingLeft>
+                                <PaddingRight>2pt</PaddingRight>
+                                <PaddingTop>2pt</PaddingTop>
+                                <PaddingBottom>2pt</PaddingBottom>
+                              </Style>
+                            </Textbox>
+                            <Image Name="image209">
+                              <Source>Embedded</Source>
+                              <Value>=IIF(Fields!LastTimeDrinks.Value = "U", "radio_checked", "radio_unchecked")</Value>
+                              <Top>0.09722in</Top>
+                              <Left>6.69844in</Left>
+                              <Height>0.125in</Height>
+                              <Width>0.125in</Width>
+                              <ZIndex>3</ZIndex>
+                              <Style>
+                                <Border />
+                              </Style>
+                            </Image>
+                            <Textbox Name="textbox587">
+                              <CanGrow>true</CanGrow>
+                              <KeepTogether>true</KeepTogether>
+                              <Paragraphs>
+                                <Paragraph>
+                                  <TextRuns>
+                                    <TextRun>
+                                      <Value>Unknown</Value>
+                                      <Style>
+                                        <FontFamily>Verdana</FontFamily>
+                                        <FontSize>9pt</FontSize>
+                                      </Style>
+                                    </TextRun>
+                                  </TextRuns>
+                                  <Style />
+                                </Paragraph>
+                              </Paragraphs>
+                              <Top>0.05694in</Top>
+                              <Left>6.88333in</Left>
+                              <Height>0.58208cm</Height>
+                              <Width>0.73489in</Width>
+                              <ZIndex>4</ZIndex>
+                              <Style>
+                                <PaddingLeft>2pt</PaddingLeft>
+                                <PaddingRight>2pt</PaddingRight>
+                                <PaddingTop>2pt</PaddingTop>
+                                <PaddingBottom>2pt</PaddingBottom>
+                              </Style>
+                            </Textbox>
+                            <Textbox Name="Textbox42">
+                              <CanGrow>true</CanGrow>
+                              <KeepTogether>true</KeepTogether>
+                              <Paragraphs>
+                                <Paragraph>
+                                  <TextRuns>
+                                    <TextRun>
+                                      <Value>=First(Fields!LastTimeDrinkDate.Value)</Value>
+                                      <Style>
+                                        <FontFamily>Verdana</FontFamily>
+                                        <FontSize>9pt</FontSize>
+                                        <Format>d</Format>
+                                      </Style>
+                                    </TextRun>
+                                  </TextRuns>
+                                  <Style />
+                                </Paragraph>
+                              </Paragraphs>
+                              <rd:DefaultName>Textbox39</rd:DefaultName>
+                              <Top>0.03611in</Top>
+                              <Left>4.82551in</Left>
+                              <Height>0.25in</Height>
+                              <Width>0.98782in</Width>
+                              <ZIndex>5</ZIndex>
+                              <Style>
+                                <Border>
+                                  <Style>None</Style>
+                                </Border>
+                                <PaddingLeft>2pt</PaddingLeft>
+                                <PaddingRight>2pt</PaddingRight>
+                                <PaddingTop>2pt</PaddingTop>
+                                <PaddingBottom>2pt</PaddingBottom>
+                              </Style>
+                            </Textbox>
+                          </ReportItems>
+                          <KeepTogether>true</KeepTogether>
+                          <Top>0.02294cm</Top>
+                          <Height>0.91722cm</Height>
+                          <Width>19.4645cm</Width>
+                          <Style>
+                            <Border>
+                              <Style>None</Style>
+                            </Border>
+                          </Style>
+                        </Rectangle>
+                      </ReportItems>
+                      <DataElementOutput>ContentsOnly</DataElementOutput>
+                      <ZIndex>229</ZIndex>
+                      <Style />
+                    </Rectangle>
+                  </CellContents>
+                </TablixCell>
+              </TablixCells>
+            </TablixRow>
+            <TablixRow>
+              <Height>0.36111in</Height>
+              <TablixCells>
+                <TablixCell>
+                  <CellContents>
+                    <Rectangle Name="Rectangle1">
+                      <ReportItems>
+                        <Textbox Name="Textbox32">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>3. In the past year, have you used or experimented with any illegal drug or prescription drug for non-medical reasons?</Value>
+                                  <Style>
+                                    <FontFamily>Verdana</FontFamily>
+                                    <FontSize>9pt</FontSize>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>Textbox32</rd:DefaultName>
+                          <Top>0.03611in</Top>
+                          <Height>0.25in</Height>
+                          <Width>5.905in</Width>
+                          <Style>
+                            <Border>
+                              <Style>None</Style>
+                            </Border>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                        <Image Name="image211">
+                          <Source>Embedded</Source>
+                          <Value>=IIF(Fields!IllegalDrugs.Value="Y","radio_checked","radio_unchecked")</Value>
+                          <Top>0.125in</Top>
+                          <Left>6.05972in</Left>
+                          <Height>0.125in</Height>
+                          <Width>0.125in</Width>
+                          <ZIndex>1</ZIndex>
+                          <Style>
+                            <Border />
+                          </Style>
+                        </Image>
+                        <Textbox Name="textbox582">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>Yes</Value>
+                                  <Style>
+                                    <FontFamily>Verdana</FontFamily>
+                                    <FontSize>9pt</FontSize>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <Top>0.06944in</Top>
+                          <Left>6.26528in</Left>
+                          <Height>0.635cm</Height>
+                          <Width>0.36372in</Width>
+                          <ZIndex>2</ZIndex>
+                          <Style>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                        <Image Name="image207">
+                          <Source>Embedded</Source>
+                          <Value>=IIF(Fields!IllegalDrugs.Value="N","radio_checked","radio_unchecked")</Value>
+                          <Top>0.09722in</Top>
+                          <Left>6.88333in</Left>
+                          <Height>0.125in</Height>
+                          <Width>0.125in</Width>
+                          <ZIndex>3</ZIndex>
+                          <Style>
+                            <Border />
+                          </Style>
+                        </Image>
+                        <Textbox Name="textbox586">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>No</Value>
+                                  <Style>
+                                    <FontFamily>Verdana</FontFamily>
+                                    <FontSize>9pt</FontSize>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <Top>0.05694in</Top>
+                          <Left>7.10139in</Left>
+                          <Height>0.58208cm</Height>
+                          <Width>0.38056in</Width>
+                          <ZIndex>4</ZIndex>
+                          <Style>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </ReportItems>
+                      <KeepTogether>true</KeepTogether>
+                      <Style>
+                        <Border>
+                          <Style>None</Style>
+                        </Border>
+                      </Style>
+                    </Rectangle>
+                  </CellContents>
+                </TablixCell>
+              </TablixCells>
+            </TablixRow>
+            <TablixRow>
+              <Height>0.08333in</Height>
+              <TablixCells>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="Textbox6">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value />
+                              <Style>
+                                <FontFamily>Verdana</FontFamily>
+                                <FontSize>9pt</FontSize>
+                                <FontWeight>Bold</FontWeight>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style />
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>Textbox6</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Style>None</Style>
+                        </Border>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+              </TablixCells>
+            </TablixRow>
+            <TablixRow>
+              <Height>0.25in</Height>
+              <TablixCells>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="Textbox18">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value EvaluationMode="Constant">Follow up</Value>
+                              <Style>
+                                <FontFamily>Verdana</FontFamily>
+                                <FontSize>9pt</FontSize>
+                                <FontWeight>Bold</FontWeight>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style />
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>Textbox18</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Style>None</Style>
+                        </Border>
+                        <BackgroundColor>#dce5ea</BackgroundColor>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+              </TablixCells>
+            </TablixRow>
+            <TablixRow>
+              <Height>0.28472in</Height>
+              <TablixCells>
+                <TablixCell>
+                  <CellContents>
+                    <Rectangle Name="rectangle154">
+                      <ReportItems>
+                        <Textbox Name="textbox882">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>Criteria for follow up</Value>
+                                  <Style>
+                                    <FontStyle>Normal</FontStyle>
+                                    <FontFamily>Verdana</FontFamily>
+                                    <FontSize>9pt</FontSize>
+                                    <FontWeight>Bold</FontWeight>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <LeftIndent>0cm</LeftIndent>
+                              <HangingIndent>0cm</HangingIndent>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <Top>0.025in</Top>
+                          <Height>0.635cm</Height>
+                          <Width>7.61822in</Width>
+                          <Style>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </ReportItems>
+                      <DataElementOutput>ContentsOnly</DataElementOutput>
+                      <ZIndex>227</ZIndex>
+                      <Style>
+                        <Border />
+                      </Style>
+                    </Rectangle>
+                  </CellContents>
+                </TablixCell>
+              </TablixCells>
+            </TablixRow>
+            <TablixRow>
+              <Height>0.2875in</Height>
+              <TablixCells>
+                <TablixCell>
+                  <CellContents>
+                    <Rectangle Name="rectangle95">
+                      <ReportItems>
+                        <Textbox Name="textbox581">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value EvaluationMode="Constant">Question 1: People &gt; 65 exceeding 3 drinks a day or 7 drinks a week; Females &lt; 65 7/weeks and Males &lt; 65 14/weeks.</Value>
+                                  <Style>
+                                    <FontStyle>Normal</FontStyle>
+                                    <FontFamily>Verdana</FontFamily>
+                                    <FontSize>9pt</FontSize>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <LeftIndent>0cm</LeftIndent>
+                              <HangingIndent>0cm</HangingIndent>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <Top>0.0375in</Top>
+                          <Height>0.635cm</Height>
+                          <Width>7.66319in</Width>
+                          <Style>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </ReportItems>
+                      <DataElementOutput>ContentsOnly</DataElementOutput>
+                      <ZIndex>80</ZIndex>
+                      <Style>
+                        <Border />
+                      </Style>
+                    </Rectangle>
+                  </CellContents>
+                </TablixCell>
+              </TablixCells>
+            </TablixRow>
+            <TablixRow>
+              <Height>0.33334in</Height>
+              <TablixCells>
+                <TablixCell>
+                  <CellContents>
+                    <Rectangle Name="Rectangle3">
+                      <ReportItems>
+                        <Textbox Name="Textbox1">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value EvaluationMode="Constant">Question 2: Date within the past three months</Value>
+                                  <Style>
+                                    <FontFamily>Verdana</FontFamily>
+                                    <FontSize>9pt</FontSize>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>Textbox1</rd:DefaultName>
+                          <Top>0.08056in</Top>
+                          <Left>0.03694in</Left>
+                          <Height>0.25in</Height>
+                          <Width>7.35417in</Width>
+                          <Style>
+                            <Border>
+                              <Style>None</Style>
+                            </Border>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </ReportItems>
+                      <KeepTogether>true</KeepTogether>
+                      <Style>
+                        <Border>
+                          <Style>None</Style>
+                        </Border>
+                      </Style>
+                    </Rectangle>
+                  </CellContents>
+                </TablixCell>
+              </TablixCells>
+            </TablixRow>
+            <TablixRow>
+              <Height>0.35416in</Height>
+              <TablixCells>
+                <TablixCell>
+                  <CellContents>
+                    <Rectangle Name="Rectangle4">
+                      <ReportItems>
+                        <Textbox Name="Textbox2">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value EvaluationMode="Constant">Question 3: Yes</Value>
+                                  <Style>
+                                    <FontFamily>Verdana</FontFamily>
+                                    <FontSize>9pt</FontSize>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>Textbox2</rd:DefaultName>
+                          <Top>0.05833in</Top>
+                          <Left>0.03in</Left>
+                          <Height>0.25in</Height>
+                          <Width>7.63319in</Width>
+                          <Style>
+                            <Border>
+                              <Style>None</Style>
+                            </Border>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </ReportItems>
+                      <KeepTogether>true</KeepTogether>
+                      <Style>
+                        <Border>
+                          <Style>None</Style>
+                        </Border>
+                      </Style>
+                    </Rectangle>
+                  </CellContents>
+                </TablixCell>
+              </TablixCells>
+            </TablixRow>
+            <TablixRow>
+              <Height>0.59375in</Height>
+              <TablixCells>
+                <TablixCell>
+                  <CellContents>
+                    <Rectangle Name="rectangle96">
+                      <ReportItems>
+                        <Textbox Name="textbox584">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>Select Follow up Action(s)</Value>
+                                  <Style>
+                                    <FontFamily>Verdana</FontFamily>
+                                    <FontSize>9pt</FontSize>
+                                    <FontWeight>Bold</FontWeight>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <LeftIndent>0cm</LeftIndent>
+                              <HangingIndent>0cm</HangingIndent>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <Height>0.635cm</Height>
+                          <Width>1.76736in</Width>
+                          <Style>
+                            <Border>
+                              <Style>None</Style>
+                            </Border>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                        <Textbox Name="textbox585">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>5-15 Minutes of brief counseling</Value>
+                                  <Style>
+                                    <FontFamily>Verdana</FontFamily>
+                                    <FontSize>9pt</FontSize>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <Top>0.03611in</Top>
+                          <Left>2.30208in</Left>
+                          <Height>0.635cm</Height>
+                          <Width>2.45399in</Width>
+                          <ZIndex>1</ZIndex>
+                          <Style>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                        <Image Name="image206">
+                          <Source>Embedded</Source>
+                          <Value>=IIF(Fields!BriefCounseling.Value="Y","checkbox_checked","checkbox_unchecked")</Value>
+                          <Top>0.10417in</Top>
+                          <Left>2.10764in</Left>
+                          <Height>0.125in</Height>
+                          <Width>0.125in</Width>
+                          <ZIndex>2</ZIndex>
+                          <Style>
+                            <Border />
+                          </Style>
+                        </Image>
+                        <Textbox Name="Textbox38">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>Feedback on Alcohol Use</Value>
+                                  <Style>
+                                    <FontFamily>Verdana</FontFamily>
+                                    <FontSize>9pt</FontSize>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>Textbox38</rd:DefaultName>
+                          <Top>0.03611in</Top>
+                          <Left>5.28472in</Left>
+                          <Height>0.23611in</Height>
+                          <Width>2.37847in</Width>
+                          <ZIndex>3</ZIndex>
+                          <Style>
+                            <Border>
+                              <Style>None</Style>
+                            </Border>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                        <Textbox Name="Textbox39">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>Harms</Value>
+                                  <Style>
+                                    <FontFamily>Verdana</FontFamily>
+                                    <FontSize>9pt</FontSize>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>Textbox39</rd:DefaultName>
+                          <Top>0.31944in</Top>
+                          <Left>2.40069in</Left>
+                          <Height>0.25in</Height>
+                          <Width>0.77778in</Width>
+                          <ZIndex>4</ZIndex>
+                          <Style>
+                            <Border>
+                              <Style>None</Style>
+                            </Border>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                        <Image Name="image212">
+                          <Source>Embedded</Source>
+                          <Value>=IIF(Fields!FeedBackOnAlcoholUse.Value="Y","checkbox_checked","checkbox_unchecked")</Value>
+                          <Top>0.10417in</Top>
+                          <Left>5.07583in</Left>
+                          <Height>0.125in</Height>
+                          <Width>0.125in</Width>
+                          <ZIndex>5</ZIndex>
+                          <Style>
+                            <Border />
+                          </Style>
+                        </Image>
+                        <Image Name="image213">
+                          <Source>Embedded</Source>
+                          <Value>=IIF(Fields!Harms.Value="Y","checkbox_checked","checkbox_unchecked")</Value>
+                          <Top>0.39028in</Top>
+                          <Left>2.13264in</Left>
+                          <Height>0.125in</Height>
+                          <Width>0.125in</Width>
+                          <ZIndex>6</ZIndex>
+                          <Style>
+                            <Border />
+                          </Style>
+                        </Image>
+                        <Image Name="image214">
+                          <Source>Embedded</Source>
+                          <Value>=IIF(Fields!DevelopmentOfPlans.Value="Y","checkbox_checked","checkbox_unchecked")</Value>
+                          <Top>0.37778in</Top>
+                          <Left>3.48097in</Left>
+                          <Height>0.125in</Height>
+                          <Width>0.125in</Width>
+                          <ZIndex>7</ZIndex>
+                          <Style>
+                            <Border />
+                          </Style>
+                        </Image>
+                        <Image Name="image215">
+                          <Source>Embedded</Source>
+                          <Value>=IIF(Fields!Refferal.Value="Y","checkbox_checked","checkbox_unchecked")</Value>
+                          <Top>0.37778in</Top>
+                          <Left>5.68833in</Left>
+                          <Height>0.125in</Height>
+                          <Width>0.125in</Width>
+                          <ZIndex>8</ZIndex>
+                          <Style>
+                            <Border />
+                          </Style>
+                        </Image>
+                        <Textbox Name="Textbox40">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>Development of Plan</Value>
+                                  <Style>
+                                    <FontFamily>Verdana</FontFamily>
+                                    <FontSize>9pt</FontSize>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>Textbox39</rd:DefaultName>
+                          <Top>0.31389in</Top>
+                          <Left>3.73653in</Left>
+                          <Height>0.25in</Height>
+                          <Width>1.5625in</Width>
+                          <ZIndex>9</ZIndex>
+                          <Style>
+                            <Border>
+                              <Style>None</Style>
+                            </Border>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                        <Textbox Name="Textbox41">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value EvaluationMode="Constant">Referral</Value>
+                                  <Style>
+                                    <FontFamily>Verdana</FontFamily>
+                                    <FontSize>9pt</FontSize>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>Textbox39</rd:DefaultName>
+                          <Top>0.32083in</Top>
+                          <Left>5.90417in</Left>
+                          <Height>0.25in</Height>
+                          <Width>1.06944in</Width>
+                          <ZIndex>10</ZIndex>
+                          <Style>
+                            <Border>
+                              <Style>None</Style>
+                            </Border>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </ReportItems>
+                      <DataElementOutput>ContentsOnly</DataElementOutput>
+                      <ZIndex>80</ZIndex>
+                      <Style>
+                        <Border />
+                      </Style>
+                    </Rectangle>
+                  </CellContents>
+                </TablixCell>
+              </TablixCells>
+            </TablixRow>
+            <TablixRow>
+              <Height>0.25in</Height>
+              <TablixCells>
+                <TablixCell>
+                  <CellContents>
+                    <Rectangle Name="rectangle155">
+                      <ReportItems>
+                        <Textbox Name="textbox883">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>DD One Time Only</Value>
+                                  <Style>
+                                    <FontFamily>Verdana</FontFamily>
+                                    <FontSize>9pt</FontSize>
+                                    <FontWeight>Bold</FontWeight>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <LeftIndent>0cm</LeftIndent>
+                              <HangingIndent>0cm</HangingIndent>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <Height>0.635cm</Height>
+                          <Width>7.66319in</Width>
+                          <Style>
+                            <Border>
+                              <Style>None</Style>
+                            </Border>
+                            <BackgroundColor>#dce5ea</BackgroundColor>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </ReportItems>
+                      <DataElementOutput>ContentsOnly</DataElementOutput>
+                      <ZIndex>227</ZIndex>
+                      <Style>
+                        <Border />
+                      </Style>
+                    </Rectangle>
+                  </CellContents>
+                </TablixCell>
+              </TablixCells>
+            </TablixRow>
+            <TablixRow>
+              <Height>0.03125in</Height>
+              <TablixCells>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="Textbox43">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value />
+                              <Style />
+                            </TextRun>
+                          </TextRuns>
+                          <Style />
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>Textbox43</rd:DefaultName>
+                      <Style>
+                        <Border />
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+              </TablixCells>
+            </TablixRow>
+            <TablixRow>
+              <Height>0.25in</Height>
+              <TablixCells>
+                <TablixCell>
+                  <CellContents>
+                    <Rectangle Name="rectangle27">
+                      <ReportItems>
+                        <Textbox Name="textbox195">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>DD One Time Only</Value>
+                                  <Style>
+                                    <FontFamily>Verdana</FontFamily>
+                                    <FontSize>9pt</FontSize>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <LeftIndent>0cm</LeftIndent>
+                              <HangingIndent>0cm</HangingIndent>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>textbox181</rd:DefaultName>
+                          <Left>0.25in</Left>
+                          <Height>0.25in</Height>
+                          <Width>9.08049cm</Width>
+                          <Style>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                        <Image Name="image54">
+                          <Source>Embedded</Source>
+                          <Value>=IIF(Fields!DDOneTimeOnly.Value="Y","checkbox_checked","checkbox_unchecked")</Value>
+                          <Top>0.03958in</Top>
+                          <Left>0.08334in</Left>
+                          <Height>0.125in</Height>
+                          <Width>0.125in</Width>
+                          <ZIndex>1</ZIndex>
+                          <Style>
+                            <Border />
+                          </Style>
+                        </Image>
+                      </ReportItems>
+                      <DataElementOutput>ContentsOnly</DataElementOutput>
+                      <ZIndex>228</ZIndex>
+                      <Style>
+                        <Border />
+                      </Style>
+                    </Rectangle>
+                  </CellContents>
+                </TablixCell>
+              </TablixCells>
+            </TablixRow>
+          </TablixRows>
+        </TablixBody>
+        <TablixColumnHierarchy>
+          <TablixMembers>
+            <TablixMember />
+          </TablixMembers>
+        </TablixColumnHierarchy>
+        <TablixRowHierarchy>
+          <TablixMembers>
+            <TablixMember>
+              <Visibility>
+                <Hidden>=IIF(Fields!NotApplicable.Value="Y",false,true)</Hidden>
+              </Visibility>
+            </TablixMember>
+            <TablixMember>
+              <Visibility>
+                <Hidden>=IIf(ISNOTHING(Fields!DrinksPerWeek.Value) and ISNOTHING(Fields!IllegalDrugs.Value) and (ISNOTHING(Fields!LastTimeDrinkDate.Value)  or ISNOTHING(Fields!LastTimeDrinks.Value)) and Fields!NotApplicable.Value="Y",true,false)</Hidden>
+              </Visibility>
+            </TablixMember>
+            <TablixMember>
+              <Visibility>
+                <Hidden>=IIf(ISNOTHING(Fields!DrinksPerWeek.Value),true,false)</Hidden>
+              </Visibility>
+            </TablixMember>
+            <TablixMember>
+              <Visibility>
+                <Hidden>=IIf(ISNOTHING(Fields!LastTimeDrinkDate.Value) or ISNOTHING(Fields!LastTimeDrinks.Value) and Fields!NotApplicable.Value="Y",true,false)</Hidden>
+              </Visibility>
+            </TablixMember>
+            <TablixMember>
+              <Visibility>
+                <Hidden>=IIf(ISNOTHING(Fields!IllegalDrugs.Value),true,false)</Hidden>
+              </Visibility>
+            </TablixMember>
+            <TablixMember />
+            <TablixMember>
+              <Visibility>
+                <Hidden>=IIF(Fields!NotApplicable.Value="Y",true,false)</Hidden>
+              </Visibility>
+            </TablixMember>
+            <TablixMember>
+              <Visibility>
+                <Hidden>=IIF(Fields!NotApplicable.Value="Y",true,false)</Hidden>
+              </Visibility>
+            </TablixMember>
+            <TablixMember>
+              <Visibility>
+                <Hidden>=IIF(Fields!NotApplicable.Value="Y",true,false)</Hidden>
+              </Visibility>
+            </TablixMember>
+            <TablixMember>
+              <Visibility>
+                <Hidden>=IIF(Fields!NotApplicable.Value="Y",true,false)</Hidden>
+              </Visibility>
+            </TablixMember>
+            <TablixMember>
+              <Visibility>
+                <Hidden>=IIF(Fields!NotApplicable.Value="Y",true,false)</Hidden>
+              </Visibility>
+            </TablixMember>
+            <TablixMember>
+              <Visibility>
+                <Hidden>=IIF(Fields!NotApplicable.Value="Y",true,false)</Hidden>
+              </Visibility>
+            </TablixMember>
+            <TablixMember>
+              <Visibility>
+                <Hidden>=IIF(Fields!DDOneTimeOnly.Value="Y",false,true)</Hidden>
+              </Visibility>
+            </TablixMember>
+            <TablixMember />
+            <TablixMember>
+              <Visibility>
+                <Hidden>=IIF(Fields!DDOneTimeOnly.Value="Y",false,true)</Hidden>
+              </Visibility>
+            </TablixMember>
+          </TablixMembers>
+        </TablixRowHierarchy>
+        <DataSetName>csp_RDLSubReportMHSubstanceUse</DataSetName>
+        <Height>4.25221in</Height>
+        <Width>7.66319in</Width>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+        </Style>
+      </Tablix>
+    </ReportItems>
+    <Height>4.25222in</Height>
+    <Style />
+  </Body>
+  <Width>7.66889in</Width>
+  <Page>
+    <LeftMargin>0.25in</LeftMargin>
+    <RightMargin>0.25in</RightMargin>
+    <TopMargin>0.25in</TopMargin>
+    <BottomMargin>0.25in</BottomMargin>
+    <Style />
+  </Page>
+  <AutoRefresh>0</AutoRefresh>
+  <DataSources>
+    <DataSource Name="Streamline">
+      <DataSourceReference>Streamline</DataSourceReference>
+      <rd:SecurityType>None</rd:SecurityType>
+      <rd:DataSourceID>0e54e331-73e1-4c3b-b07f-b8994785206e</rd:DataSourceID>
+    </DataSource>
+  </DataSources>
+  <DataSets>
+    <DataSet Name="csp_RDLSubReportMHSubstanceUse">
+      <Query>
+        <DataSourceName>Streamline</DataSourceName>
+        <QueryParameters>
+          <QueryParameter Name="@DocumentVersionId">
+            <Value>=Parameters!DocumentVersionId.Value</Value>
+          </QueryParameter>
+        </QueryParameters>
+        <CommandType>StoredProcedure</CommandType>
+        <CommandText>csp_RDLSubReportMHSubstanceUse</CommandText>
+      </Query>
+      <Fields>
+        <Field Name="DocumentVersionId">
+          <DataField>DocumentVersionId</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="CreatedBy">
+          <DataField>CreatedBy</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="CreatedDate">
+          <DataField>CreatedDate</DataField>
+          <rd:TypeName>System.DateTime</rd:TypeName>
+        </Field>
+        <Field Name="ModifiedBy">
+          <DataField>ModifiedBy</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="ModifiedDate">
+          <DataField>ModifiedDate</DataField>
+          <rd:TypeName>System.DateTime</rd:TypeName>
+        </Field>
+        <Field Name="RecordDeleted">
+          <DataField>RecordDeleted</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="DeletedBy">
+          <DataField>DeletedBy</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="DeletedDate">
+          <DataField>DeletedDate</DataField>
+          <rd:TypeName>System.DateTime</rd:TypeName>
+        </Field>
+        <Field Name="UseOfAlcohol">
+          <DataField>UseOfAlcohol</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="AlcoholAddToNeedsList">
+          <DataField>AlcoholAddToNeedsList</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="UseOfTobaccoNicotine">
+          <DataField>UseOfTobaccoNicotine</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="UseOfTobaccoNicotineQuit">
+          <DataField>UseOfTobaccoNicotineQuit</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="UseOfTobaccoNicotineTypeOfFrequency">
+          <DataField>UseOfTobaccoNicotineTypeOfFrequency</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="UseOfTobaccoNicotineAddToNeedsList">
+          <DataField>UseOfTobaccoNicotineAddToNeedsList</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="UseOfIllicitDrugs">
+          <DataField>UseOfIllicitDrugs</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="UseOfIllicitDrugsTypeFrequency">
+          <DataField>UseOfIllicitDrugsTypeFrequency</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="UseOfIllicitDrugsAddToNeedsList">
+          <DataField>UseOfIllicitDrugsAddToNeedsList</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="PrescriptionOTCDrugs">
+          <DataField>PrescriptionOTCDrugs</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="PrescriptionOTCDrugsTypeFrequency">
+          <DataField>PrescriptionOTCDrugsTypeFrequency</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="PrescriptionOTCDrugsAddtoNeedsList">
+          <DataField>PrescriptionOTCDrugsAddtoNeedsList</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="DrinksPerWeek">
+          <DataField>DrinksPerWeek</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="LastTimeDrinkDate">
+          <DataField>LastTimeDrinkDate</DataField>
+          <rd:TypeName>System.DateTime</rd:TypeName>
+        </Field>
+        <Field Name="LastTimeDrinks">
+          <DataField>LastTimeDrinks</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="IllegalDrugs">
+          <DataField>IllegalDrugs</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="BriefCounseling">
+          <DataField>BriefCounseling</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="FeedBackOnAlcoholUse">
+          <DataField>FeedBackOnAlcoholUse</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Harms">
+          <DataField>Harms</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="DevelopmentOfPlans">
+          <DataField>DevelopmentOfPlans</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Refferal">
+          <DataField>Refferal</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="DDOneTimeOnly">
+          <DataField>DDOneTimeOnly</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="NotApplicable">
+          <DataField>NotApplicable</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+      </Fields>
+    </DataSet>
+  </DataSets>
+  <ReportParameters>
+    <ReportParameter Name="DocumentVersionId">
+      <DataType>Integer</DataType>
+      <Prompt>DocumentVersionId</Prompt>
+    </ReportParameter>
+  </ReportParameters>
+  <EmbeddedImages>
+    <EmbeddedImage Name="checkbox_unchecked">
+      <MIMEType>image/png</MIMEType>
+      <ImageData>iVBORw0KGgoAAAANSUhEUgAAAA8AAAAQCAYAAADJViUEAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAATdEVYdFNvZnR3YXJlAEdyZWVuc2hvdCCZWG7CAAAARklEQVQ4T2P4TwFgAOltaGggCcPsg2t2cHD4Twy+cuEE3K0omonxwahmaFSBQpoYMJwCDOQXYjFK8iQmoLCpASdPcgFFmgES8GPHu4oa9wAAAABJRU5ErkJggg==</ImageData>
+    </EmbeddedImage>
+    <EmbeddedImage Name="checkbox_checked">
+      <MIMEType>image/png</MIMEType>
+      <ImageData>iVBORw0KGgoAAAANSUhEUgAAAA8AAAAPCAYAAAA71pVKAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAATdEVYdFNvZnR3YXJlAEdyZWVuc2hvdCCZWG7CAAAAcUlEQVQ4T6WSQQ6AMAgEeRpP43kePfgfDCqEGtSlknBpdrpLC+mPImNFpNXuFzAzK9LbukTWAUYmmIKJDh9twwZCsIviUS4Qhl3ojvnC19gZyHE9yefMlSMMm/A+ewt++vMyth2iPawnslmV5lybydoBQX/pM3OGHDcAAAAASUVORK5CYII=</ImageData>
+    </EmbeddedImage>
+    <EmbeddedImage Name="radio_checked">
+      <MIMEType>image/png</MIMEType>
+      <ImageData>iVBORw0KGgoAAAANSUhEUgAAAA0AAAALCAIAAAAr0JA2AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAAZdEVYdFNvZnR3YXJlAFBhaW50Lk5FVCB2My41LjVJivzgAAAAXElEQVQoU6WPuRGAMBADrzRKozyHBPSDbdYjyw8RyqTb++IZdZq8EjIAh4kEoHEifAYtG266odj7Sp1jmKB4JQtavXNAjv7j6oqvvdNq/2b4A65ESkE96X95be3JvUFIc7a+oKoAAAAASUVORK5CYII=</ImageData>
+    </EmbeddedImage>
+    <EmbeddedImage Name="radio_unchecked">
+      <MIMEType>image/png</MIMEType>
+      <ImageData>iVBORw0KGgoAAAANSUhEUgAAAA0AAAALCAIAAAAr0JA2AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAAZdEVYdFNvZnR3YXJlAFBhaW50Lk5FVCB2My41LjVJivzgAAAAUUlEQVQoU2P4jwoakACyDAOcA1HggAQgIhAFUHVwFchmQLRgUYfmBiD3yoUTCHUQwzAVQUQgSkH2DpQ6PFaj+AOiDigEF4X7AF0d3LMQ1Zh6AIz7bE8k8peLAAAAAElFTkSuQmCC</ImageData>
+    </EmbeddedImage>
+  </EmbeddedImages>
+  <rd:ReportUnitType>Inch</rd:ReportUnitType>
+  <rd:ReportID>1563f518-125b-4a16-b202-e7991f63fa8d</rd:ReportID>
+</Report>

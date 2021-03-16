@@ -16,7 +16,16 @@ where documentid= @DocumentId
 begin tran
 update Documents
 SET Status=26,CurrentVersionStatus=26,ModifiedBy='WbarlowScript',ModifiedDate=getdate()
-WHERE DocumentId = 2499458
+WHERE DocumentId = 1910416
+
+
+update documents
+set RecordDeleted='Y',DeletedDate=GETDATE(),DELETEDBY='Wbarlow'
+WHERE DOCUMENTID IN (
+1910416,
+1509026,
+1438309
+)
 
 commit tran
 ROLLBACK TRAN

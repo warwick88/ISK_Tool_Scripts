@@ -12,8 +12,7 @@ update DOCUMENTSIGNATURES
 SET RecordDeleted='Y',DeletedBy='WBARLOW',DeletedDate=GETDATE()
 WHERE SignedDocumentVersionId IS NULL
 AND DocumentId in (
-2665197,
-2663561
+2764844
 )
 commit tran
 rollback tran

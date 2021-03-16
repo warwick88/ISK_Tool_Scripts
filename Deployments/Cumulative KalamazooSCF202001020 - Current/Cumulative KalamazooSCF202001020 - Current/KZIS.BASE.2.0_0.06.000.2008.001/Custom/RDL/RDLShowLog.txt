@@ -1,0 +1,2 @@
+Report: SubReportCustomRegistrationInsurance.rdl published successfully. 
+The command completed successfully

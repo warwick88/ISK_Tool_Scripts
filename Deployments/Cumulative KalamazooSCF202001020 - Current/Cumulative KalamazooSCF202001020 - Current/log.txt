@@ -1,0 +1,239 @@
+
+
+-----------------------------
+
+
+Connecting....
+Connection Exception Type: System.Data.SqlClient.SqlException
+   Error Message: Cannot generate SSPI context.
+
+
+-----------------------------
+
+
+Connecting....
+Connection Exception Type: System.Data.SqlClient.SqlException
+   Error Message: Cannot generate SSPI context.
+
+
+-----------------------------
+
+
+Connecting....
+
+Connection to 10.0.253.70 Succesful.
+
+Connecting....
+Database: 2020BC1KalamazooFunctionalQA
+Current Core DB Version: 5.2930
+Using Config: E:\SVNTOGIT\Streamline\Releases\Custom\Kalamazoo\Cumulative KalamazooSCF202001020 - Current\Cumulative Custom DBUpgrade Configuration.xml
+
+Connecting....
+Database: 2020BC1KalamazooFunctionalQA
+Current Core DB Version: 5.2930
+Using Config: E:\SVNTOGIT\Streamline\Releases\Custom\Kalamazoo\Cumulative KalamazooSCF202001020 - Current\Cumulative Custom DBUpgrade Configuration.xml
+
+
+
+-----------------------------
+
+
+Connecting....
+
+Connection to 10.0.253.5 Succesful.
+
+Connecting....
+Database: KalamazooSmartcareQA40
+Current Core DB Version: 5.2930
+Using Config: E:\SVNTOGIT\Streamline\Releases\Custom\Kalamazoo\Cumulative KalamazooSCF202001020 - Current\Cumulative Custom DBUpgrade Configuration.xml
+
+
+UPGRADING DATABASE WITH MODULE: Custom
+
+
+RELEASE: KZIS.BASE.2.0_0.20.000.2012.001
+
+1) UpdateScript_DocumentValidations_KCMHSAS - Support #1587.sql > Success v1.0635
+Commit Exception Type: System.Data.SqlClient.SqlException
+   Error Message: The operating system returned error 23(Data error (cyclic redundancy check).) to SQL Server during a read at offset 0x00000038720000 in file 'E:\MicrosoftSQLServer\KalamazooSmartcareQA40.mdf'. Additional messages in the SQL Server error log and system event log may provide more detail. This is a severe system-level error condition that threatens database integrity and must be corrected immediately. Complete a full database consistency check (DBCC CHECKDB). This error can be caused by many factors; for more information, see SQL Server Books Online.
+2) csp_validateCustomDocumentDischarges.sql > Success v1.0636
+
+---------------
+12/24/2020 7:21:04 PM
+
+Preparing to upgrade .......
+
+
+Applying package : KZIS.BASE.2.0_0.20.000.2012.001
+
+> Extracting E:\SVNTOGIT\Streamline\Releases\Custom\Kalamazoo\Cumulative KalamazooSCF202001020 - Current\KZIS.BASE.2.0_0.20.000.2012.001\Custom\Build Objects.zip
+> Complete
+
+1 packages applied
+
+Custom module has been successfully upgraded
+
+
+-----------------------------
+
+
+Connecting....
+
+Connection to 10.0.253.5 Succesful.
+
+Connecting....
+Database: KalamazooSmartcareQA40
+Current Core DB Version: 5.2930
+Using Config: E:\SVNTOGIT\Streamline\Releases\Custom\Kalamazoo\Cumulative KalamazooSCF202001020 - Current\Cumulative Custom DBUpgrade Configuration.xml
+
+
+UPGRADING DATABASE WITH MODULE: Custom
+
+
+RELEASE: KZIS.BASE.2.0_0.20.000.2012.001
+
+1) UpdateScript_DocumentValidations_KCMHSAS - Support #1587.sql > Success v1.0635
+Commit Exception Type: System.Data.SqlClient.SqlException
+   Error Message: The operating system returned error 23(Data error (cyclic redundancy check).) to SQL Server during a read at offset 0x00000038720000 in file 'E:\MicrosoftSQLServer\KalamazooSmartcareQA40.mdf'. Additional messages in the SQL Server error log and system event log may provide more detail. This is a severe system-level error condition that threatens database integrity and must be corrected immediately. Complete a full database consistency check (DBCC CHECKDB). This error can be caused by many factors; for more information, see SQL Server Books Online.
+2) csp_validateCustomDocumentDischarges.sql > Success v1.0636
+
+
+-----------------------------
+
+
+Connecting....
+
+Connection to SSDDBSRV Succesful.
+
+Connecting....
+Database: 2020BC1KalamazooFunctionalQA
+Current Core DB Version: 5.2930
+Using Config: E:\Streamline\Workspace\Custom\Releases\Custom\Kalamazoo\Cumulative KalamazooSCF202001020 - Current\Cumulative Custom DBUpgrade Configuration.xml
+
+
+UPGRADING DATABASE WITH MODULE: Custom
+
+
+RELEASE: KZIS.BASE.2.0_0.22.000.2101.001
+
+1) cfn_SCUpdateElectronicEligibilityData_ResponseCoveragePlans_Michigan.sql > Success v1.0639
+2) csp_CreateKalamazooLabOrderFlowsheet.sql > Success v1.064
+3) Csp_CreateLabObservationsAndFlowSheet.sql > Success v1.0641
+4) Csp_MapLabObservationsWithFlowSheet.sql > Success v1.0642
+
+Database has been successfully upgraded
+
+
+---------------
+1/15/2021 8:23:44 PM
+
+Preparing to upgrade .......
+
+
+Applying package : KZIS.BASE.2.0_0.22.000.2101.001
+
+> Extracting E:\Streamline\Workspace\Custom\Releases\Custom\Kalamazoo\Cumulative KalamazooSCF202001020 - Current\KZIS.BASE.2.0_0.22.000.2101.001\Custom\Build Objects.zip
+> Complete
+
+1 packages applied
+
+Custom module has been successfully upgraded
+
+
+-----------------------------
+
+
+Connecting....
+Connection Exception Type: System.Data.SqlClient.SqlException
+   Error Message: Cannot generate SSPI context.
+
+
+-----------------------------
+
+
+Connecting....
+Connection Exception Type: System.Data.SqlClient.SqlException
+   Error Message: Cannot generate SSPI context.
+
+
+-----------------------------
+
+
+Connecting....
+
+Connection to 10.0.253.70 Succesful.
+
+Connecting....
+Database: 2020BC1KalamazooFunctionalQA
+Current Core DB Version: 5.2930
+Using Config: E:\SVNTOGIT\Streamline\Releases\Custom\Kalamazoo\Cumulative KalamazooSCF202001020 - Current\Cumulative Custom DBUpgrade Configuration.xml
+
+
+UPGRADING DATABASE WITH MODULE: Custom
+
+
+RELEASE: KZIS.BASE.2.0_0.26.000.2102.001
+
+1) csp_InitializeSCWebHRMAddendumStandardInitialization.sql > Success v1.0649
+2) csp_InitializeSCWebHRMTreatmentPlanStandardInitialization.sql > Success v1.065
+3) csp_RDLSubReportHRMTPInterventions.sql > Success v1.0651
+4) csp_SCWebGetTreatmentPlanHRM.sql > Success v1.0652
+
+Database has been successfully upgraded
+
+
+---------------
+2/11/2021 2:42:42 PM
+
+Preparing to upgrade .......
+
+
+Applying package : KZIS.BASE.2.0_0.26.000.2102.001
+
+> Extracting E:\SVNTOGIT\Streamline\Releases\Custom\Kalamazoo\Cumulative KalamazooSCF202001020 - Current\KZIS.BASE.2.0_0.26.000.2102.001\Custom\Build Objects.zip
+> Complete
+
+1 packages applied
+
+Custom module has been successfully upgraded
+
+
+-----------------------------
+
+
+Connecting....
+
+Connection to 10.0.253.70 Succesful.
+
+Connecting....
+Database: 2020BC1KalamazooFunctionalQA
+Current Core DB Version: 5.2930
+Using Config: E:\SVNTOGIT\Streamline\Releases\Custom\Kalamazoo\Cumulative KalamazooSCF202001020 - Current\Cumulative Custom DBUpgrade Configuration.xml
+
+
+UPGRADING DATABASE WITH MODULE: Custom
+
+
+RELEASE: KZIS.BASE.2.0_0.28.000.2102.001
+
+1) csp_RDLSubReportTpSignatures.sql > Success v1.0654
+2) csp_SCValidateCarePlans.sql > Success v1.0655
+3) SubReportTPSignaturePage.rdl > Success v1.0656
+
+Database has been successfully upgraded
+
+
+---------------
+2/25/2021 3:00:19 PM
+
+Preparing to upgrade .......
+
+
+Applying package : KZIS.BASE.2.0_0.28.000.2102.001
+
+> Extracting E:\SVNTOGIT\Streamline\Releases\Custom\Kalamazoo\Cumulative KalamazooSCF202001020 - Current\KZIS.BASE.2.0_0.28.000.2102.001\Custom\Build Objects.zip
+> Complete
+
+1 packages applied
+
+Custom module has been successfully upgraded

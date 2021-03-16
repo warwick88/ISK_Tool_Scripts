@@ -1,6 +1,6 @@
 use ProdSmartCare
-declare @NewUserCode varchar(30) = 'BZuckerkorn' -- usercode for the new staff member or staff member to which you are copying permissins
-declare @CopyUserCode varchar(30) = 'Bobloblaw'	-- select * from staff where usercode like '%kvan%'
+declare @NewUserCode varchar(30) = 'GMaharis' -- usercode for the new staff member or staff member to which you are copying permissins
+declare @CopyUserCode varchar(30) = 'JRICHARDSON'	-- select * from staff where usercode like '%kvan%'
 declare @NewStaffId int 
 declare @CopyStaffId int 
 
@@ -11,7 +11,7 @@ select @CopyStaffId = staffid from staff where UserCode = @CopyUserCode
 declare @DeleteRole_StaffID int = 0 /* Pair with @ProcessFlag=5 to mark roles deleted for @NewUserCode */
 --select * from staff where usercode like '%rdavis%'
 
-declare @ProcessFlag tinyint =1
+declare @ProcessFlag tinyint =4
 
 /************   Turn sectons On or Off   ************/
 -- Y means turn On copy, N means to Turn Off copy 
