@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.489
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F14B399A-7131-4C87-9E4B-1186C45EF12D}") = "InpatientFormKQA", "InpatientFormKQA\InpatientFormKQA.rptproj", "{5F1D681A-794B-4B7B-B2FC-C93C6357921D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Default = Debug|Default
+		DebugLocal|Default = DebugLocal|Default
+		Release|Default = Release|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5F1D681A-794B-4B7B-B2FC-C93C6357921D}.Debug|Default.ActiveCfg = Debug
+		{5F1D681A-794B-4B7B-B2FC-C93C6357921D}.Debug|Default.Build.0 = Debug
+		{5F1D681A-794B-4B7B-B2FC-C93C6357921D}.Debug|Default.Deploy.0 = Debug
+		{5F1D681A-794B-4B7B-B2FC-C93C6357921D}.DebugLocal|Default.ActiveCfg = DebugLocal
+		{5F1D681A-794B-4B7B-B2FC-C93C6357921D}.DebugLocal|Default.Build.0 = DebugLocal
+		{5F1D681A-794B-4B7B-B2FC-C93C6357921D}.Release|Default.ActiveCfg = Release
+		{5F1D681A-794B-4B7B-B2FC-C93C6357921D}.Release|Default.Build.0 = Release
+		{5F1D681A-794B-4B7B-B2FC-C93C6357921D}.Release|Default.Deploy.0 = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B3D70F60-F74F-4D54-9A7D-08D0EE65EA7C}
+	EndGlobalSection
+EndGlobal

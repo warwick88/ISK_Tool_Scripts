@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.489
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F14B399A-7131-4C87-9E4B-1186C45EF12D}") = "ISP_Missing_Estimatedcost", "ISP_Missing_Estimatedcost\ISP_Missing_Estimatedcost.rptproj", "{C701CCC3-FB27-45D3-A48A-2E3080F6D34A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Default = Debug|Default
+		DebugLocal|Default = DebugLocal|Default
+		Release|Default = Release|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C701CCC3-FB27-45D3-A48A-2E3080F6D34A}.Debug|Default.ActiveCfg = Debug
+		{C701CCC3-FB27-45D3-A48A-2E3080F6D34A}.Debug|Default.Build.0 = Debug
+		{C701CCC3-FB27-45D3-A48A-2E3080F6D34A}.Debug|Default.Deploy.0 = Debug
+		{C701CCC3-FB27-45D3-A48A-2E3080F6D34A}.DebugLocal|Default.ActiveCfg = DebugLocal
+		{C701CCC3-FB27-45D3-A48A-2E3080F6D34A}.DebugLocal|Default.Build.0 = DebugLocal
+		{C701CCC3-FB27-45D3-A48A-2E3080F6D34A}.Release|Default.ActiveCfg = Release
+		{C701CCC3-FB27-45D3-A48A-2E3080F6D34A}.Release|Default.Build.0 = Release
+		{C701CCC3-FB27-45D3-A48A-2E3080F6D34A}.Release|Default.Deploy.0 = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B9B72B53-2E52-408D-A74E-2BEFAFD3E3B1}
+	EndGlobalSection
+EndGlobal

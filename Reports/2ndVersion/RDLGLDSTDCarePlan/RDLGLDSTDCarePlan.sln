@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.489
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F14B399A-7131-4C87-9E4B-1186C45EF12D}") = "RDLGLDSTDCarePlan", "RDLGLDSTDCarePlan\RDLGLDSTDCarePlan.rptproj", "{A3A1B7FA-35C0-4E71-98CE-0C6E84672FC2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Default = Debug|Default
+		DebugLocal|Default = DebugLocal|Default
+		Release|Default = Release|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A3A1B7FA-35C0-4E71-98CE-0C6E84672FC2}.Debug|Default.ActiveCfg = Debug
+		{A3A1B7FA-35C0-4E71-98CE-0C6E84672FC2}.Debug|Default.Build.0 = Debug
+		{A3A1B7FA-35C0-4E71-98CE-0C6E84672FC2}.Debug|Default.Deploy.0 = Debug
+		{A3A1B7FA-35C0-4E71-98CE-0C6E84672FC2}.DebugLocal|Default.ActiveCfg = DebugLocal
+		{A3A1B7FA-35C0-4E71-98CE-0C6E84672FC2}.DebugLocal|Default.Build.0 = DebugLocal
+		{A3A1B7FA-35C0-4E71-98CE-0C6E84672FC2}.Release|Default.ActiveCfg = Release
+		{A3A1B7FA-35C0-4E71-98CE-0C6E84672FC2}.Release|Default.Build.0 = Release
+		{A3A1B7FA-35C0-4E71-98CE-0C6E84672FC2}.Release|Default.Deploy.0 = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EAE21810-929D-4598-B654-CA865116CA79}
+	EndGlobalSection
+EndGlobal

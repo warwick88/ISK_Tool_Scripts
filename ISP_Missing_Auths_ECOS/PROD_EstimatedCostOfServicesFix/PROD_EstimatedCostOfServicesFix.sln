@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.489
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F14B399A-7131-4C87-9E4B-1186C45EF12D}") = "PROD_EstimatedCostOfServicesFix", "PROD_EstimatedCostOfServicesFix\PROD_EstimatedCostOfServicesFix.rptproj", "{CF2EC2A7-5EB3-4DF0-9904-EFDBBC889253}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Default = Debug|Default
+		DebugLocal|Default = DebugLocal|Default
+		Release|Default = Release|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CF2EC2A7-5EB3-4DF0-9904-EFDBBC889253}.Debug|Default.ActiveCfg = Debug
+		{CF2EC2A7-5EB3-4DF0-9904-EFDBBC889253}.Debug|Default.Build.0 = Debug
+		{CF2EC2A7-5EB3-4DF0-9904-EFDBBC889253}.Debug|Default.Deploy.0 = Debug
+		{CF2EC2A7-5EB3-4DF0-9904-EFDBBC889253}.DebugLocal|Default.ActiveCfg = DebugLocal
+		{CF2EC2A7-5EB3-4DF0-9904-EFDBBC889253}.DebugLocal|Default.Build.0 = DebugLocal
+		{CF2EC2A7-5EB3-4DF0-9904-EFDBBC889253}.Release|Default.ActiveCfg = Release
+		{CF2EC2A7-5EB3-4DF0-9904-EFDBBC889253}.Release|Default.Build.0 = Release
+		{CF2EC2A7-5EB3-4DF0-9904-EFDBBC889253}.Release|Default.Deploy.0 = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C7961366-5261-4A89-966B-06F92492886A}
+	EndGlobalSection
+EndGlobal

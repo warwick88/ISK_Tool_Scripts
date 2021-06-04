@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.489
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F14B399A-7131-4C87-9E4B-1186C45EF12D}") = "KQA_Estimated_Auth_Requests", "KQA_Estimated_Auth_Requests\KQA_Estimated_Auth_Requests.rptproj", "{DACF32F2-C82B-47FB-81F3-21D9C1A7D8FF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Default = Debug|Default
+		DebugLocal|Default = DebugLocal|Default
+		Release|Default = Release|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DACF32F2-C82B-47FB-81F3-21D9C1A7D8FF}.Debug|Default.ActiveCfg = Debug
+		{DACF32F2-C82B-47FB-81F3-21D9C1A7D8FF}.Debug|Default.Build.0 = Debug
+		{DACF32F2-C82B-47FB-81F3-21D9C1A7D8FF}.Debug|Default.Deploy.0 = Debug
+		{DACF32F2-C82B-47FB-81F3-21D9C1A7D8FF}.DebugLocal|Default.ActiveCfg = DebugLocal
+		{DACF32F2-C82B-47FB-81F3-21D9C1A7D8FF}.DebugLocal|Default.Build.0 = DebugLocal
+		{DACF32F2-C82B-47FB-81F3-21D9C1A7D8FF}.Release|Default.ActiveCfg = Release
+		{DACF32F2-C82B-47FB-81F3-21D9C1A7D8FF}.Release|Default.Build.0 = Release
+		{DACF32F2-C82B-47FB-81F3-21D9C1A7D8FF}.Release|Default.Deploy.0 = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {823F3C80-E4B5-4829-97EF-35EB0A98F906}
+	EndGlobalSection
+EndGlobal

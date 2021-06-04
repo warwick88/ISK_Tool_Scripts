@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.489
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F14B399A-7131-4C87-9E4B-1186C45EF12D}") = "Restoring_ECOS_V2_PROD", "Restoring_ECOS_V2_PROD\Restoring_ECOS_V2_PROD.rptproj", "{E574BDE5-0B94-4E59-94EE-16F5D2049E00}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Default = Debug|Default
+		DebugLocal|Default = DebugLocal|Default
+		Release|Default = Release|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E574BDE5-0B94-4E59-94EE-16F5D2049E00}.Debug|Default.ActiveCfg = Debug
+		{E574BDE5-0B94-4E59-94EE-16F5D2049E00}.Debug|Default.Build.0 = Debug
+		{E574BDE5-0B94-4E59-94EE-16F5D2049E00}.Debug|Default.Deploy.0 = Debug
+		{E574BDE5-0B94-4E59-94EE-16F5D2049E00}.DebugLocal|Default.ActiveCfg = DebugLocal
+		{E574BDE5-0B94-4E59-94EE-16F5D2049E00}.DebugLocal|Default.Build.0 = DebugLocal
+		{E574BDE5-0B94-4E59-94EE-16F5D2049E00}.Release|Default.ActiveCfg = Release
+		{E574BDE5-0B94-4E59-94EE-16F5D2049E00}.Release|Default.Build.0 = Release
+		{E574BDE5-0B94-4E59-94EE-16F5D2049E00}.Release|Default.Deploy.0 = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CD7F61A7-4D21-417D-9C3D-358652808A56}
+	EndGlobalSection
+EndGlobal
