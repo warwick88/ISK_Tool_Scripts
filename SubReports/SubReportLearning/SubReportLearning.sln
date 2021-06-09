@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.489
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F14B399A-7131-4C87-9E4B-1186C45EF12D}") = "SubReportLearning", "SubReportLearning\SubReportLearning.rptproj", "{AAB2000C-5E6C-426C-96E5-D367557A4A7A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Default = Debug|Default
+		DebugLocal|Default = DebugLocal|Default
+		Release|Default = Release|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AAB2000C-5E6C-426C-96E5-D367557A4A7A}.Debug|Default.ActiveCfg = Debug
+		{AAB2000C-5E6C-426C-96E5-D367557A4A7A}.Debug|Default.Build.0 = Debug
+		{AAB2000C-5E6C-426C-96E5-D367557A4A7A}.Debug|Default.Deploy.0 = Debug
+		{AAB2000C-5E6C-426C-96E5-D367557A4A7A}.DebugLocal|Default.ActiveCfg = DebugLocal
+		{AAB2000C-5E6C-426C-96E5-D367557A4A7A}.DebugLocal|Default.Build.0 = DebugLocal
+		{AAB2000C-5E6C-426C-96E5-D367557A4A7A}.Release|Default.ActiveCfg = Release
+		{AAB2000C-5E6C-426C-96E5-D367557A4A7A}.Release|Default.Build.0 = Release
+		{AAB2000C-5E6C-426C-96E5-D367557A4A7A}.Release|Default.Deploy.0 = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6D63FC21-CAE1-4394-90D2-F06D6B6F06F5}
+	EndGlobalSection
+EndGlobal

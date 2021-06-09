@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Report xmlns="http://schemas.microsoft.com/sqlserver/reporting/2005/01/reportdefinition">
+  <DataSources>
+    <DataSource Name="Streamline">
+      <rd:DataSourceID xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner">87a3d1d7-7155-4c73-b484-3b5d4d805f42</rd:DataSourceID>
+      <DataSourceReference>Streamline</DataSourceReference>
+    </DataSource>
+  </DataSources>
+  <InteractiveHeight>11in</InteractiveHeight>
+  <ReportParameters>
+    <ReportParameter Name="DocumentVersionId">
+      <DataType>Integer</DataType>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>DocumentVersionId</Prompt>
+    </ReportParameter>
+  </ReportParameters>
+  <rd:DrawGrid xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner">true</rd:DrawGrid>
+  <InteractiveWidth>8.5in</InteractiveWidth>
+  <rd:SnapToGrid xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner">true</rd:SnapToGrid>
+  <RightMargin>1in</RightMargin>
+  <LeftMargin>1in</LeftMargin>
+  <BottomMargin>1in</BottomMargin>
+  <rd:ReportID xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner">a8fe3269-665d-4248-9a4f-291c1d9c3b78</rd:ReportID>
+  <DataSets>
+    <DataSet Name="csp_RDLGetTPSignaturePageFormat">
+      <Fields>
+        <Field Name="TPSignatureFormatId">
+          <DataField>TPSignatureFormatId</DataField>
+          <rd:TypeName xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner">System.Int32</rd:TypeName>
+        </Field>
+      </Fields>
+      <Query>
+        <DataSourceName>Streamline</DataSourceName>
+        <CommandType>StoredProcedure</CommandType>
+        <CommandText>csp_RDLGetTPSignaturePageFormat</CommandText>
+        <QueryParameters>
+          <QueryParameter Name="@DocumentVersionId">
+            <Value>=Parameters!DocumentVersionId.Value</Value>
+          </QueryParameter>
+        </QueryParameters>
+      </Query>
+    </DataSet>
+  </DataSets>
+  <Width>7.5in</Width>
+  <Body>
+    <ReportItems>
+      <Table Name="table1">
+        <Details>
+          <TableRows>
+            <TableRow>
+              <Visibility>
+                <Hidden>=(Fields!TPSignatureFormatId.Value &gt; 1)</Hidden>
+              </Visibility>
+              <TableCells>
+                <TableCell>
+                  <ReportItems>
+                    <Subreport Name="SubReportTPSignaturePage">
+                      <Parameters>
+                        <Parameter Name="DocumentVersionId">
+                          <Value>=Parameters!DocumentVersionId.Value</Value>
+                        </Parameter>
+                      </Parameters>
+                      <ReportName>SubReportTPSignaturePage</ReportName>
+                      <ZIndex>1</ZIndex>
+                    </Subreport>
+                  </ReportItems>
+                </TableCell>
+              </TableCells>
+              <Height>0.25in</Height>
+            </TableRow>
+            <TableRow>
+              <Visibility>
+                <Hidden>=(Fields!TPSignatureFormatId.Value = 1)</Hidden>
+              </Visibility>
+              <TableCells>
+                <TableCell>
+                  <ReportItems>
+                    <Subreport Name="SubReportTPSignaturePageCustom">
+                      <Parameters>
+                        <Parameter Name="DocumentVersionId">
+                          <Value>=Parameters!DocumentVersionId.Value</Value>
+                        </Parameter>
+                      </Parameters>
+                      <ReportName>SubReportTPSignaturePageCustom</ReportName>
+                    </Subreport>
+                  </ReportItems>
+                </TableCell>
+              </TableCells>
+              <Height>0.25in</Height>
+            </TableRow>
+          </TableRows>
+        </Details>
+        <TableColumns>
+          <TableColumn>
+            <Width>7.5in</Width>
+          </TableColumn>
+        </TableColumns>
+      </Table>
+    </ReportItems>
+    <Height>0.5in</Height>
+  </Body>
+  <Language>en-US</Language>
+  <TopMargin>1in</TopMargin>
+</Report>

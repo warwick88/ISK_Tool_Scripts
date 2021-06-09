@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.489
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F14B399A-7131-4C87-9E4B-1186C45EF12D}") = "External Provider Claims Detail", "External Provider Claims Detail\External Provider Claims Detail.rptproj", "{30F34A77-ED38-4E46-AC77-B0B1EA8FC818}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Default = Debug|Default
+		DebugLocal|Default = DebugLocal|Default
+		Release|Default = Release|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{30F34A77-ED38-4E46-AC77-B0B1EA8FC818}.Debug|Default.ActiveCfg = Debug
+		{30F34A77-ED38-4E46-AC77-B0B1EA8FC818}.Debug|Default.Build.0 = Debug
+		{30F34A77-ED38-4E46-AC77-B0B1EA8FC818}.Debug|Default.Deploy.0 = Debug
+		{30F34A77-ED38-4E46-AC77-B0B1EA8FC818}.DebugLocal|Default.ActiveCfg = DebugLocal
+		{30F34A77-ED38-4E46-AC77-B0B1EA8FC818}.DebugLocal|Default.Build.0 = DebugLocal
+		{30F34A77-ED38-4E46-AC77-B0B1EA8FC818}.Release|Default.ActiveCfg = Release
+		{30F34A77-ED38-4E46-AC77-B0B1EA8FC818}.Release|Default.Build.0 = Release
+		{30F34A77-ED38-4E46-AC77-B0B1EA8FC818}.Release|Default.Deploy.0 = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4ECC86F4-C449-497F-9BD6-E63D412A1ED8}
+	EndGlobalSection
+EndGlobal
